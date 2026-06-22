@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>تقييم لغة الإشارة</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="login-screen" id="loginScreen" style="display:none">
+    <div class="login-card">
+      <div class="login-lang-switcher">
+        <button class="lang-btn active" data-lang="ar">ع</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="fr">FR</button>
+      </div>
+
+      <div class="login-logo">
+        <svg width="48" height="48" viewBox="0 0 32 32" fill="none">
+          <circle cx="16" cy="16" r="15" stroke="var(--accent)" stroke-width="2"/>
+          <path d="M10 20 Q16 8 22 20" stroke="var(--accent)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <circle cx="10" cy="20" r="2.5" fill="var(--accent)"/><circle cx="22" cy="20" r="2.5" fill="var(--accent)"/>
+        </svg>
+      </div>
+      <h1 class="login-title" data-i18n="loginTitle">لغة الإشارة الجزائرية</h1>
+      <p class="login-subtitle" data-i18n="loginSubtitle">منصة تقييم إشارات اللغة الجزائرية</p>
+
+      <div class="restore-notice" id="restoreNotice">
+        <p class="restore-notice-title" data-i18n="restoreNoticeTitle">⚠️ تنبيه مهم للمستخدمين السابقين</p>
+        <p class="restore-notice-body" data-i18n="restoreNoticeBody">لأسباب تقنية، تمت إعادة تعيين كلمات المرور. إذا كان لديك حساب من قبل، استخدم كلمة المرور المؤقتة:</p>
+        <p class="restore-notice-pass">alsl2026</p>
+        <p class="restore-notice-footer" data-i18n="restoreNoticeFooter">بعد تسجيل الدخول، سيُطلب منك اختيار كلمة مرور جديدة. كل تقدمك محفوظ.</p>
+      </div>
+
+      <div class="auth-tabs">
+        <button class="auth-tab active" id="tabLogin"    onclick="switchTab('login')"    data-i18n="tabLogin">تسجيل الدخول</button>
+        <button class="auth-tab"        id="tabRegister" onclick="switchTab('register')" data-i18n="tabRegister">حساب جديد</button>
+      </div>
+
+      <div id="formLogin">
+        <input type="text"     id="loginUser" class="login-input" data-i18n-placeholder="loginUsername" placeholder="اسم المستخدم" autocomplete="username" maxlength="60">
+        <input type="password" id="loginPass" class="login-input" data-i18n-placeholder="loginPassword" placeholder="كلمة المرور" autocomplete="current-password" maxlength="100">
+        <p class="auth-error" id="loginError"></p>
+        <button class="login-btn" onclick="doLogin()" data-i18n="btnLogin">دخول</button>
+      </div>
+
+      <div id="formRegister" style="display:none">
+        <input type="text"     id="regName"  class="login-input" data-i18n-placeholder="regFullName" placeholder="الاسم الكامل" maxlength="100">
+        <input type="email"    id="regEmail" class="login-input" data-i18n-placeholder="regEmail"    placeholder="البريد الإلكتروني" autocomplete="email" maxlength="120">
+        <input type="text"     id="regUser"  class="login-input" data-i18n-placeholder="regUsername" placeholder="اسم المستخدم" autocomplete="username" maxlength="40">
+        <input type="password" id="regPass"  class="login-input" data-i18n-placeholder="regPassword" placeholder="كلمة المرور" autocomplete="new-password" maxlength="100">
+        <p class="auth-error" id="regError"></p>
+        <button class="login-btn" onclick="doRegister()" data-i18n="btnRegister">إنشاء حساب</button>
+      </div>
+
+      <p class="login-hint" data-i18n="loginHint">تقدمك يُحفظ تلقائياً — يمكنك الدخول من أي جهاز</p>
+    </div>
+  </div>
+
+  <div class="login-screen" id="resetScreen" style="display:none">
+    <div class="login-card">
+      <div class="login-lang-switcher">
+        <button class="lang-btn active" data-lang="ar">ع</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="fr">FR</button>
+      </div>
+
+      <div class="login-logo">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2">
+          <rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+        </svg>
+      </div>
+      <h1 class="login-title" data-i18n="resetTitle">اختر كلمة مرور جديدة</h1>
+      <p class="login-subtitle" data-i18n="resetSubtitle">تم إعادة تعيين كلمة مرورك. اختر كلمة مرور جديدة للمتابعة.</p>
+
+      <input type="password" id="resetNewPass"     class="login-input" data-i18n-placeholder="resetNewPassword"     placeholder="كلمة المرور الجديدة" autocomplete="new-password" maxlength="100">
+      <input type="password" id="resetConfirmPass" class="login-input" data-i18n-placeholder="resetConfirmPassword" placeholder="تأكيد كلمة المرور" autocomplete="new-password" maxlength="100">
+      <p class="auth-error" id="resetError"></p>
+      <button class="login-btn" onclick="doResetPassword()" data-i18n="resetSubmit">حفظ ومتابعة</button>
+    </div>
+  </div>
+
+  <div id="appContent" style="display:none">
+    <header class="header">
+      <div class="header-inner">
+        <div class="logo">
+          <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+            <circle cx="16" cy="16" r="15" stroke="var(--accent)" stroke-width="2"/>
+            <path d="M10 20 Q16 8 22 20" stroke="var(--accent)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+            <circle cx="10" cy="20" r="2.5" fill="var(--accent)"/><circle cx="22" cy="20" r="2.5" fill="var(--accent)"/>
+          </svg>
+          <span class="logo-text" data-i18n="logoText">ALSL</span>
+          <span class="active-cat-label" id="activeCatLabel" style="display:none"></span>
+        </div>
+        <div class="header-controls">
+          <button class="header-icon-btn" id="backToCatBtn" onclick="backToPicker()" style="display:none">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="15 18 9 12 15 6"/></svg>
+            <span class="btn-text-hide" data-i18n="btnCategories">الفئات</span>
+          </button>
+          <button class="header-icon-btn end-btn" id="endSessionBtn" onclick="endSession()" style="display:none">
+            <span class="btn-text-hide" data-i18n="btnEndSession">إنهاء</span>
+          </button>
+          <button class="header-icon-btn theme-btn" onclick="toggleTheme()"><span id="themeIcon">☀️</span></button>
+          <div class="lang-switcher">
+            <button class="lang-btn active" data-lang="ar">ع</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="fr">FR</button>
+          </div>
+
+          <div class="expert-chip" id="expertChip" onclick="toggleProfileMenu()">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+            </svg>
+            <span id="expertName">—</span>
+            <svg class="chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+          <div class="profile-menu" id="profileMenu">
+            <button class="profile-menu-item" onclick="downloadMyCsv()">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              <span data-i18n="profileDownload">تحميل عملي</span>
+            </button>
+            <button class="profile-menu-item danger" onclick="doLogout()">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
+              <span data-i18n="profileLogout">تسجيل الخروج</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+
+      <div id="categoryPicker" style="display:none">
+        <div class="picker-header">
+          <h2 class="picker-title" data-i18n="pickerTitle">اختر فئة للبدء</h2>
+          <p class="picker-subtitle" data-i18n="pickerSubtitle">يمكنك البدء من أي فئة والعودة لاحقاً</p>
+        </div>
+        <div class="picker-progress">
+          <div class="picker-progress-label" id="pickerProgress"></div>
+          <div class="picker-bar-track"><div class="picker-bar-fill" id="pickerProgressFill"></div></div>
+        </div>
+        <div class="category-grid" id="categoryGrid"></div>
+      </div>
+
+      <div class="progress-section" id="progressSection" style="display:none">
+        <div class="progress-label"><span id="progressText">0/0</span><span id="progressPercent">0%</span></div>
+        <div class="progress-bar-track"><div class="progress-bar-fill" id="progressFill"></div></div>
+      </div>
+
+      <div class="card" id="mainCard" style="display:none">
+        <div class="concept-row">
+          <span class="concept-badge" data-i18n="conceptLabel">المفهوم</span>
+
+          <div class="concept-triple" id="conceptTriple"></div>
+
+          <div class="concept-meta">
+            <span class="status-badge" id="statusBadge" style="display:none"></span>
+            <span class="already-badge" id="alreadyEvaluated" style="display:none"></span>
+          </div>
+        </div>
+
+        <div class="video-wrap" id="videoContainer">
+          <div class="video-placeholder">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          </div>
+        </div>
+
+        <div class="answer-grid">
+          <button class="answer-btn yes" onclick="answer('YES')">
+            <span class="btn-icon">👍</span><span class="btn-label" data-i18n="btnYes">صحيح</span><span class="btn-key">1</span>
+          </button>
+          <button class="answer-btn no" onclick="answer('NO')">
+            <span class="btn-icon">👎</span><span class="btn-label" data-i18n="btnNo">خطأ</span><span class="btn-key">2</span>
+          </button>
+          <button class="answer-btn almost" onclick="answer('ALMOST')">
+            <span class="btn-icon">🤏</span><span class="btn-label" data-i18n="btnAlmost">تقريباً</span><span class="btn-key">3</span>
+          </button>
+        </div>
+
+        <div class="comment-row">
+          <label for="signComment" class="comment-label" data-i18n="commentLabel">تعليق (اختياري):</label>
+          <textarea id="signComment" class="comment-input" rows="2"
+                    data-i18n-placeholder="commentPlaceholder"
+                    placeholder="اكتب ملاحظة حول هذه الإشارة…"></textarea>
+        </div>
+
+        <div class="nav-row">
+          <button class="nav-btn" onclick="prevSign()">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+            <span data-i18n="btnPrev">السابق</span>
+          </button>
+          <button class="flag-btn" onclick="openFlagModal()">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15" stroke="currentColor" stroke-width="2"/></svg>
+            <span data-i18n="btnFlag">إبلاغ</span>
+          </button>
+          <button class="nav-btn" onclick="skipSign()">
+            <span data-i18n="btnNext">التالي</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <div class="modal-backdrop" id="modalBackdrop" onclick="closeFlagModal()"></div>
+  <div class="modal" id="flagModal" role="dialog">
+    <button class="modal-close" onclick="closeFlagModal()">✕</button>
+    <h2 class="modal-title" data-i18n="flagTitle">أرسل تقريرًا</h2>
+    <p class="modal-subtitle" data-i18n="flagSubtitle">ما المشاكل التي تراها؟</p>
+    <div class="flag-options">
+      <label class="flag-option"><input type="checkbox" value="wrong_sign">
+        <div class="flag-option-content">
+          <span class="flag-option-title" data-i18n="flagWrong">إشارة خاطئة</span>
+          <span class="flag-option-desc" data-i18n="flagWrongDesc">الإشارة لا تطابق المفهوم المعروض.</span>
+        </div></label>
+      <label class="flag-option"><input type="checkbox" value="poor_quality">
+        <div class="flag-option-content">
+          <span class="flag-option-title" data-i18n="flagQuality">جودة رديئة</span>
+          <span class="flag-option-desc" data-i18n="flagQualityDesc">المقطع غير واضح أو الإضاءة سيئة.</span>
+        </div></label>
+      <label class="flag-option"><input type="checkbox" value="other">
+        <div class="flag-option-content">
+          <span class="flag-option-title" data-i18n="flagOther">أخرى</span>
+        </div></label>
+    </div>
+    <textarea class="flag-comment" id="flagComment" data-i18n-placeholder="flagCommentPlaceholder" placeholder="ملاحظة إضافية (اختياري)"></textarea>
+    <button class="modal-submit" id="modalSubmit" onclick="submitFlag()" disabled>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+      <span data-i18n="flagSubmit">أبلغ</span>
+    </button>
+  </div>
+
+  <div class="finished-screen" id="finishedScreen" style="display:none">
+    <div class="finished-inner">
+      <div class="finished-icon">🙏</div>
+      <h2 data-i18n="doneTitle">شكراً لك</h2>
+      <p class="finished-thanks" data-i18n="doneThanks">نثمّن مساهمتكم في بناء قاعدة بيانات لغة الإشارة الجزائرية</p>
+      <div class="fin-stats">
+        <div class="fin-stat yes"><div class="fin-stat-num" id="finStatsYes">0</div><div class="fin-stat-label" data-i18n="btnYes">صحيح</div></div>
+        <div class="fin-stat almost"><div class="fin-stat-num" id="finStatsAlmost">0</div><div class="fin-stat-label" data-i18n="btnAlmost">تقريباً</div></div>
+        <div class="fin-stat no"><div class="fin-stat-num" id="finStatsNo">0</div><div class="fin-stat-label" data-i18n="btnNo">خطأ</div></div>
+        <div class="fin-stat flag"><div class="fin-stat-num" id="finStatsFlag">0</div><div class="fin-stat-label" data-i18n="btnFlag">إبلاغ</div></div>
+      </div>
+      <div class="fin-overall">
+        <div class="fin-overall-label"><span data-i18n="finOverallLabel">التقدم الإجمالي</span><span id="finOverallLabel">0/0</span></div>
+        <div class="fin-overall-track"><div class="fin-overall-bar" id="finOverallBar"></div></div>
+      </div>
+      <div class="fin-actions">
+        <button class="fin-btn-primary" onclick="backToPicker()" data-i18n="btnBackToCategories">العودة للفئات</button>
+        <button class="fin-btn-secondary" onclick="restartCategory()" data-i18n="btnRestart">مراجعة هذه الفئة</button>
+        <button class="fin-btn-secondary" onclick="downloadMyCsv()" data-i18n="btnDownloadCsv">📥 تحميل عملي (CSV)</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="i18n.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

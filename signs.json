@@ -1,0 +1,5690 @@
+[
+  {
+    "id": 1,
+    "concept_en": "accepter",
+    "concept_ar": "يقبل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/3.mp4",
+    "status": "partial",
+    "category": "verbs"
+  },
+  {
+    "id": 2,
+    "concept_en": "adresse",
+    "concept_ar": "عنوان",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/11.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 3,
+    "concept_en": "ami",
+    "concept_ar": "صديق",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/356.mp4",
+    "status": "partial",
+    "category": "nouns"
+  },
+  {
+    "id": 4,
+    "concept_en": "août",
+    "concept_ar": "أغسطس",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/52.mp4",
+    "status": "partial",
+    "category": "nouns"
+  },
+  {
+    "id": 5,
+    "concept_en": "appeler",
+    "concept_ar": "يتصل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/119.mp4",
+    "status": "partial",
+    "category": "verbs"
+  },
+  {
+    "id": 6,
+    "concept_en": "après",
+    "concept_ar": "بعد",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/16.mp4",
+    "status": "new",
+    "category": "prepositions"
+  },
+  {
+    "id": 7,
+    "concept_en": "armée",
+    "concept_ar": "جيش",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/42.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 8,
+    "concept_en": "arrêter",
+    "concept_ar": "يوقف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/852.mp4",
+    "status": "partial",
+    "category": "verbs"
+  },
+  {
+    "id": 9,
+    "concept_en": "arrêter",
+    "concept_ar": "يوقف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/887.mp4",
+    "status": "partial",
+    "category": "verbs"
+  },
+  {
+    "id": 10,
+    "concept_en": "attendre",
+    "concept_ar": "ينتظر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/984.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 11,
+    "concept_en": "avec",
+    "concept_ar": "مع",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1027.mp4",
+    "status": "new",
+    "category": "prepositions"
+  },
+  {
+    "id": 12,
+    "concept_en": "avoir",
+    "concept_ar": "لديه",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/405.mp4",
+    "status": "partial",
+    "category": "verbs"
+  },
+  {
+    "id": 13,
+    "concept_en": "avril",
+    "concept_ar": "أبريل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/39.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 14,
+    "concept_en": "bas",
+    "concept_ar": "منخفض",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/510.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 15,
+    "concept_en": "beaucoup",
+    "concept_ar": "كثيراً",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/521.mp4",
+    "status": "partial",
+    "category": "adverbs"
+  },
+  {
+    "id": 16,
+    "concept_en": "boire",
+    "concept_ar": "يشرب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/253.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 17,
+    "concept_en": "bon",
+    "concept_ar": "جيد",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/378.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 18,
+    "concept_en": "bonjour",
+    "concept_ar": "مرحبا",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/380.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 19,
+    "concept_en": "bouche",
+    "concept_ar": "فم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/556.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 20,
+    "concept_en": "bouteille",
+    "concept_ar": "زجاجة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/98.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 21,
+    "concept_en": "bruit",
+    "concept_ar": "ضجيج",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/587.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 22,
+    "concept_en": "bureau",
+    "concept_ar": "مكتب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/225.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 23,
+    "concept_en": "cacher",
+    "concept_ar": "يختبئ",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/418.mp4",
+    "status": "partial",
+    "category": "verbs"
+  },
+  {
+    "id": 24,
+    "concept_en": "chapeau",
+    "concept_ar": "قبعة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/404.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 25,
+    "concept_en": "chaussures",
+    "concept_ar": "أحذية",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/781.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 26,
+    "concept_en": "chemise",
+    "concept_ar": "قميص",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/780.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 27,
+    "concept_en": "chercher",
+    "concept_ar": "يبحث",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/761.mp4",
+    "status": "partial",
+    "category": "verbs"
+  },
+  {
+    "id": 28,
+    "concept_en": "chercher",
+    "concept_ar": "يبحث",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/765.mp4",
+    "status": "partial",
+    "category": "verbs"
+  },
+  {
+    "id": 29,
+    "concept_en": "chien",
+    "concept_ar": "كلب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/246.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 30,
+    "concept_en": "choisir",
+    "concept_ar": "يختار",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/147.mp4",
+    "status": "partial",
+    "category": "verbs"
+  },
+  {
+    "id": 31,
+    "concept_en": "cinéma",
+    "concept_ar": "سينما",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/151.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 32,
+    "concept_en": "clair",
+    "concept_ar": "واضح",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/155.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 33,
+    "concept_en": "commencer",
+    "concept_ar": "يبدأ",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/74.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 34,
+    "concept_en": "comprendre",
+    "concept_ar": "يفهم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/963.mp4",
+    "status": "partial",
+    "category": "verbs"
+  },
+  {
+    "id": 35,
+    "concept_en": "couleur",
+    "concept_ar": "لون",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/166.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 36,
+    "concept_en": "couper",
+    "concept_ar": "يقطع",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/198.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 37,
+    "concept_en": "couper",
+    "concept_ar": "يقطع",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/199.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 38,
+    "concept_en": "court",
+    "concept_ar": "قصير",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/784.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 39,
+    "concept_en": "crier",
+    "concept_ar": "يصرخ",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/785.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 40,
+    "concept_en": "cuisine",
+    "concept_ar": "مطبخ",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/465.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 41,
+    "concept_en": "dangereux",
+    "concept_ar": "خطير",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/204.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 42,
+    "concept_en": "dans",
+    "concept_ar": "في",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/439.mp4",
+    "status": "new",
+    "category": "prepositions"
+  },
+  {
+    "id": 43,
+    "concept_en": "dehors",
+    "concept_ar": "خارج",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/619.mp4",
+    "status": "new",
+    "category": "prepositions"
+  },
+  {
+    "id": 44,
+    "concept_en": "demain",
+    "concept_ar": "غداً",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/929.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 45,
+    "concept_en": "dents",
+    "concept_ar": "أسنان",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/932.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 46,
+    "concept_en": "différent",
+    "concept_ar": "مختلف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/228.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 47,
+    "concept_en": "doigt",
+    "concept_ar": "إصبع",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/327.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 48,
+    "concept_en": "dos",
+    "concept_ar": "ظهر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/58.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 49,
+    "concept_en": "doute",
+    "concept_ar": "شك",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/249.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 50,
+    "concept_en": "droit",
+    "concept_ar": "حق",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/734.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 51,
+    "concept_en": "décembre",
+    "concept_ar": "ديسمبر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/212.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 52,
+    "concept_en": "décider",
+    "concept_ar": "يقرر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/213.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 53,
+    "concept_en": "eau",
+    "concept_ar": "ماء",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/992.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 54,
+    "concept_en": "ennemi",
+    "concept_ar": "عدو",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/280.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 55,
+    "concept_en": "ensemble",
+    "concept_ar": "معاً",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/926.mp4",
+    "status": "partial",
+    "category": "adverbs"
+  },
+  {
+    "id": 56,
+    "concept_en": "entre",
+    "concept_ar": "بين",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/81.mp4",
+    "status": "new",
+    "category": "prepositions"
+  },
+  {
+    "id": 57,
+    "concept_en": "environnement",
+    "concept_ar": "بيئة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/288.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 58,
+    "concept_en": "espérer",
+    "concept_ar": "يأمل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/421.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 59,
+    "concept_en": "est",
+    "concept_ar": "شرق",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/264.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 60,
+    "concept_en": "faire",
+    "concept_ar": "يفعل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/243.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 61,
+    "concept_en": "faire",
+    "concept_ar": "يفعل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/517.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 62,
+    "concept_en": "fenêtre",
+    "concept_ar": "نافذة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1021.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 63,
+    "concept_en": "fleur",
+    "concept_ar": "زهرة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/335.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 64,
+    "concept_en": "football",
+    "concept_ar": "كرة القدم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/341.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 65,
+    "concept_en": "force",
+    "concept_ar": "قوة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/343.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 66,
+    "concept_en": "fort",
+    "concept_ar": "قوي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/862.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 67,
+    "concept_en": "froid",
+    "concept_ar": "بارد",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/165.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 68,
+    "concept_en": "fromage",
+    "concept_ar": "جبن",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/140.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 69,
+    "concept_en": "frontières",
+    "concept_ar": "حدود",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/97.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 70,
+    "concept_en": "fruit",
+    "concept_ar": "فاكهة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/358.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 71,
+    "concept_en": "garçon",
+    "concept_ar": "ولد",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/100.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 72,
+    "concept_en": "genoux",
+    "concept_ar": "ركبتان",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/466.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 73,
+    "concept_en": "gouvernement",
+    "concept_ar": "حكومة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/382.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 74,
+    "concept_en": "grand",
+    "concept_ar": "كبير",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/84.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 75,
+    "concept_en": "haut",
+    "concept_ar": "عالي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/890.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 76,
+    "concept_en": "hôpital",
+    "concept_ar": "مستشفى",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/422.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 77,
+    "concept_en": "ici",
+    "concept_ar": "هنا",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/416.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 78,
+    "concept_en": "imaginer",
+    "concept_ar": "يتخيل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/436.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 79,
+    "concept_en": "industrie",
+    "concept_ar": "صناعة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/441.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 80,
+    "concept_en": "jamais",
+    "concept_ar": "أبداً",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/575.mp4",
+    "status": "partial",
+    "category": "adverbs"
+  },
+  {
+    "id": 81,
+    "concept_en": "janvier",
+    "concept_ar": "يناير",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/451.mp4",
+    "status": "partial",
+    "category": "verbs"
+  },
+  {
+    "id": 82,
+    "concept_en": "jardin",
+    "concept_ar": "حديقة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/365.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 83,
+    "concept_en": "jaune",
+    "concept_ar": "أصفر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1041.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 84,
+    "concept_en": "joie",
+    "concept_ar": "فرح",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/452.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 85,
+    "concept_en": "jour",
+    "concept_ar": "يوم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/207.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 86,
+    "concept_en": "juillet",
+    "concept_ar": "يوليو",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/454.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 87,
+    "concept_en": "jupe",
+    "concept_ar": "تنورة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/799.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 88,
+    "concept_en": "lait",
+    "concept_ar": "حليب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/542.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 89,
+    "concept_en": "langue",
+    "concept_ar": "لغة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/930.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 90,
+    "concept_en": "lettre",
+    "concept_ar": "رسالة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/488.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 91,
+    "concept_en": "lettre",
+    "concept_ar": "رسالة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/489.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 92,
+    "concept_en": "lit",
+    "concept_ar": "سرير",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/71.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 93,
+    "concept_en": "loi",
+    "concept_ar": "قانون",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/480.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 94,
+    "concept_en": "loin",
+    "concept_ar": "بعيد",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/313.mp4",
+    "status": "new",
+    "category": "prepositions"
+  },
+  {
+    "id": 95,
+    "concept_en": "long",
+    "concept_ar": "طويل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/505.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 96,
+    "concept_en": "lourd",
+    "concept_ar": "ثقيل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/412.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 97,
+    "concept_en": "lundi",
+    "concept_ar": "الاثنين",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/548.mp4",
+    "status": "partial",
+    "category": "nouns"
+  },
+  {
+    "id": 98,
+    "concept_en": "lune",
+    "concept_ar": "قمر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/552.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 99,
+    "concept_en": "léger",
+    "concept_ar": "خفيف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/493.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 100,
+    "concept_en": "magasin",
+    "concept_ar": "متجر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/782.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 101,
+    "concept_en": "mai",
+    "concept_ar": "مايو",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/527.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 102,
+    "concept_en": "main",
+    "concept_ar": "يد",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/399.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 103,
+    "concept_en": "mais",
+    "concept_ar": "لكن",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/112.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 104,
+    "concept_en": "maison",
+    "concept_ar": "منزل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/425.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 105,
+    "concept_en": "malade",
+    "concept_ar": "مريض",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/787.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 106,
+    "concept_en": "manger",
+    "concept_ar": "يأكل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/266.mp4",
+    "status": "partial",
+    "category": "verbs"
+  },
+  {
+    "id": 107,
+    "concept_en": "manteau",
+    "concept_ar": "معطف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/162.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 108,
+    "concept_en": "mardi",
+    "concept_ar": "الثلاثاء",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/951.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 109,
+    "concept_en": "mars",
+    "concept_ar": "مارس",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/523.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 110,
+    "concept_en": "matin",
+    "concept_ar": "صباح",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/553.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 111,
+    "concept_en": "mauvais",
+    "concept_ar": "سيئ",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/59.mp4",
+    "status": "partial",
+    "category": "adjectives"
+  },
+  {
+    "id": 112,
+    "concept_en": "mensonge",
+    "concept_ar": "كذب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/491.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 113,
+    "concept_en": "mer",
+    "concept_ar": "بحر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/760.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 114,
+    "concept_en": "merci",
+    "concept_ar": "شكراً",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/905.mp4",
+    "status": "partial",
+    "category": "nouns"
+  },
+  {
+    "id": 115,
+    "concept_en": "mercredi",
+    "concept_ar": "الأربعاء",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/998.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 116,
+    "concept_en": "mettre",
+    "concept_ar": "يضع",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/697.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 117,
+    "concept_en": "midi",
+    "concept_ar": "ظهيرة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/539.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 118,
+    "concept_en": "mois",
+    "concept_ar": "شهر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/550.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 119,
+    "concept_en": "montagne",
+    "concept_ar": "جبل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/555.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 120,
+    "concept_en": "mort",
+    "concept_ar": "موت",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/209.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 121,
+    "concept_en": "mouillé",
+    "concept_ar": "مبلول",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1005.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 122,
+    "concept_en": "musée",
+    "concept_ar": "متحف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/559.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 123,
+    "concept_en": "mère",
+    "concept_ar": "أم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/554.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 124,
+    "concept_en": "médecin",
+    "concept_ar": "طبيب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/245.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 125,
+    "concept_en": "nature",
+    "concept_ar": "طبيعة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/569.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 126,
+    "concept_en": "nom",
+    "concept_ar": "اسم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/877.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 127,
+    "concept_en": "nord",
+    "concept_ar": "شمال",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/589.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 128,
+    "concept_en": "nuit",
+    "concept_ar": "ليل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/581.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 129,
+    "concept_en": "oiseau",
+    "concept_ar": "عصفور",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/85.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 130,
+    "concept_en": "ouest",
+    "concept_ar": "غرب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1004.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 131,
+    "concept_en": "oui",
+    "concept_ar": "نعم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1042.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 132,
+    "concept_en": "pain",
+    "concept_ar": "خبز",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/103.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 133,
+    "concept_en": "paix",
+    "concept_ar": "سلام",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/641.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 134,
+    "concept_en": "pantalon",
+    "concept_ar": "سروال",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/944.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 135,
+    "concept_en": "papier",
+    "concept_ar": "ورق",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/630.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 136,
+    "concept_en": "parfois",
+    "concept_ar": "أحياناً",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/817.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 137,
+    "concept_en": "pauvre",
+    "concept_ar": "فقير",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/670.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 138,
+    "concept_en": "peau",
+    "concept_ar": "جلد",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/798.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 139,
+    "concept_en": "penser",
+    "concept_ar": "يفكر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/911.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 140,
+    "concept_en": "perdre",
+    "concept_ar": "يخسر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/508.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 141,
+    "concept_en": "petit",
+    "concept_ar": "صغير",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/783.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 142,
+    "concept_en": "petit",
+    "concept_ar": "صغير",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/804.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 143,
+    "concept_en": "peu",
+    "concept_ar": "قليل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/321.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 144,
+    "concept_en": "peur",
+    "concept_ar": "خوف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/318.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 145,
+    "concept_en": "pharmacie",
+    "concept_ar": "صيدلية",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/649.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 146,
+    "concept_en": "pied",
+    "concept_ar": "قدم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/340.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 147,
+    "concept_en": "plein",
+    "concept_ar": "ممتلئ",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/359.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 148,
+    "concept_en": "pluie",
+    "concept_ar": "مطر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/705.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 149,
+    "concept_en": "poisson",
+    "concept_ar": "سمك",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/329.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 150,
+    "concept_en": "poitrine",
+    "concept_ar": "صدر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/143.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 151,
+    "concept_en": "police",
+    "concept_ar": "شرطة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/667.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 152,
+    "concept_en": "porte",
+    "concept_ar": "باب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/247.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 153,
+    "concept_en": "porter",
+    "concept_ar": "يحمل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/129.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 154,
+    "concept_en": "possible",
+    "concept_ar": "ممكن",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/673.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 155,
+    "concept_en": "prendre",
+    "concept_ar": "يأخذ",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/888.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 156,
+    "concept_en": "printemps",
+    "concept_ar": "ربيع",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/834.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 157,
+    "concept_en": "près",
+    "concept_ar": "قريب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/570.mp4",
+    "status": "new",
+    "category": "prepositions"
+  },
+  {
+    "id": 158,
+    "concept_en": "père",
+    "concept_ar": "أب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/317.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 159,
+    "concept_en": "raison",
+    "concept_ar": "سبب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/711.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 160,
+    "concept_en": "rire",
+    "concept_ar": "يضحك",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/479.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 161,
+    "concept_en": "riz",
+    "concept_ar": "أرز",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/731.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 162,
+    "concept_en": "robe",
+    "concept_ar": "فستان",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/252.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 163,
+    "concept_en": "répondre",
+    "concept_ar": "يجيب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/34.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 164,
+    "concept_en": "réussir",
+    "concept_ar": "ينجح",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/520.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 165,
+    "concept_en": "sac",
+    "concept_ar": "حقيبة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/60.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 166,
+    "concept_en": "sale",
+    "concept_ar": "وسخ",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/234.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 167,
+    "concept_en": "sans",
+    "concept_ar": "بدون",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1028.mp4",
+    "status": "new",
+    "category": "prepositions"
+  },
+  {
+    "id": 168,
+    "concept_en": "santé",
+    "concept_ar": "صحة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/408.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 169,
+    "concept_en": "savoir",
+    "concept_ar": "يعلم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/470.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 170,
+    "concept_en": "sec",
+    "concept_ar": "جاف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/257.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 171,
+    "concept_en": "sel",
+    "concept_ar": "ملح",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/748.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 172,
+    "concept_en": "semaine",
+    "concept_ar": "أسبوع",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/999.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 173,
+    "concept_en": "septembre",
+    "concept_ar": "سبتمبر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/768.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 174,
+    "concept_en": "seul",
+    "concept_ar": "وحيد",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/27.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 175,
+    "concept_en": "soir",
+    "concept_ar": "مساء",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/292.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 176,
+    "concept_en": "soldat",
+    "concept_ar": "جندي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/814.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 177,
+    "concept_en": "soleil",
+    "concept_ar": "شمس",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/873.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 178,
+    "concept_en": "sombre",
+    "concept_ar": "مظلم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/205.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 179,
+    "concept_en": "son",
+    "concept_ar": "صوت",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/823.mp4",
+    "status": "new",
+    "category": "pronouns"
+  },
+  {
+    "id": 180,
+    "concept_en": "souvent",
+    "concept_ar": "غالباً",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/606.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 181,
+    "concept_en": "taxi",
+    "concept_ar": "سيارة أجرة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/894.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 182,
+    "concept_en": "temps",
+    "concept_ar": "وقت",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/923.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 183,
+    "concept_en": "temps",
+    "concept_ar": "وقت",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/996.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 184,
+    "concept_en": "terre",
+    "concept_ar": "أرض",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/263.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 185,
+    "concept_en": "thé",
+    "concept_ar": "شاي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/895.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 186,
+    "concept_en": "toit",
+    "concept_ar": "سقف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/739.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 187,
+    "concept_en": "toujours",
+    "concept_ar": "دائماً",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/30.mp4",
+    "status": "partial",
+    "category": "adverbs"
+  },
+  {
+    "id": 188,
+    "concept_en": "train",
+    "concept_ar": "قطار",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/941.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 189,
+    "concept_en": "très",
+    "concept_ar": "جداً",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/974.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 190,
+    "concept_en": "vacances",
+    "concept_ar": "عطلة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/973.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 191,
+    "concept_en": "vendre",
+    "concept_ar": "يبيع",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/766.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 192,
+    "concept_en": "vendredi",
+    "concept_ar": "الجمعة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/355.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 193,
+    "concept_en": "venir",
+    "concept_ar": "يأتي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/168.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 194,
+    "concept_en": "vent",
+    "concept_ar": "ريح",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1020.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 195,
+    "concept_en": "vert",
+    "concept_ar": "أخضر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/387.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 196,
+    "concept_en": "viande",
+    "concept_ar": "لحم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/533.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 197,
+    "concept_en": "vide",
+    "concept_ar": "فارغ",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/277.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 198,
+    "concept_en": "vie",
+    "concept_ar": "حياة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/492.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 199,
+    "concept_en": "vieux",
+    "concept_ar": "كبير في السن",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/609.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 200,
+    "concept_en": "village",
+    "concept_ar": "قرية",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/978.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 201,
+    "concept_en": "ville",
+    "concept_ar": "مدينة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/935.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 202,
+    "concept_en": "violence",
+    "concept_ar": "عنف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/979.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 203,
+    "concept_en": "visage",
+    "concept_ar": "وجه",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/308.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 204,
+    "concept_en": "visiteur",
+    "concept_ar": "زائر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/981.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 205,
+    "concept_en": "voir",
+    "concept_ar": "يرى",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/764.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 206,
+    "concept_en": "voisin",
+    "concept_ar": "جار",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/573.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 207,
+    "concept_en": "voiture",
+    "concept_ar": "سيارة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/125.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 208,
+    "concept_en": "voix",
+    "concept_ar": "صوت",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/982.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 209,
+    "concept_en": "vouloir",
+    "concept_ar": "يريد",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/986.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 210,
+    "concept_en": "vous",
+    "concept_ar": "أنتم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1044.mp4",
+    "status": "new",
+    "category": "pronouns"
+  },
+  {
+    "id": 211,
+    "concept_en": "vrai",
+    "concept_ar": "حقيقي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/710.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 212,
+    "concept_en": "vrai",
+    "concept_ar": "حقيقي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/733.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 213,
+    "concept_en": "vrai",
+    "concept_ar": "حقيقي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/946.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 214,
+    "concept_en": "vélo",
+    "concept_ar": "دراجة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/83.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 215,
+    "concept_en": "vérité",
+    "concept_ar": "حقيقة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/948.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 216,
+    "concept_en": "vêtements",
+    "concept_ar": "ملابس",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/159.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 217,
+    "concept_en": "âge",
+    "concept_ar": "عمر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/20.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 218,
+    "concept_en": "écrire",
+    "concept_ar": "يكتب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1038.mp4",
+    "status": "partial",
+    "category": "verbs"
+  },
+  {
+    "id": 219,
+    "concept_en": "église",
+    "concept_ar": "كنيسة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/149.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 220,
+    "concept_en": "étranger",
+    "concept_ar": "أجنبي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/344.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 221,
+    "concept_en": "étranger",
+    "concept_ar": "أجنبي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/857.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 222,
+    "concept_en": "étroit",
+    "concept_ar": "ضيق",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/567.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 223,
+    "concept_en": "étroit",
+    "concept_ar": "ضيق",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/922.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 224,
+    "concept_en": "été",
+    "concept_ar": "صيف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/872.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 225,
+    "concept_en": "0",
+    "concept_ar": "٠",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1046.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 226,
+    "concept_en": "1",
+    "concept_ar": "١",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/611.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 227,
+    "concept_en": "10",
+    "concept_ar": "١٠",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/900.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 228,
+    "concept_en": "100",
+    "concept_ar": "١٠٠",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/430.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 229,
+    "concept_en": "11",
+    "concept_ar": "١١",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/275.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 230,
+    "concept_en": "12",
+    "concept_ar": "١٢",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/955.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 231,
+    "concept_en": "13",
+    "concept_ar": "١٣",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/914.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 232,
+    "concept_en": "14",
+    "concept_ar": "١٤",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/351.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 233,
+    "concept_en": "15",
+    "concept_ar": "١٥",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/323.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 234,
+    "concept_en": "16",
+    "concept_ar": "١٦",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/795.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 235,
+    "concept_en": "17",
+    "concept_ar": "١٧",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/771.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 236,
+    "concept_en": "18",
+    "concept_ar": "١٨",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/270.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 237,
+    "concept_en": "19",
+    "concept_ar": "١٩",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/583.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 238,
+    "concept_en": "2",
+    "concept_ar": "٢",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/957.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 239,
+    "concept_en": "20",
+    "concept_ar": "٢٠",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/956.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 240,
+    "concept_en": "3",
+    "concept_ar": "٣",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/917.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 241,
+    "concept_en": "30",
+    "concept_ar": "٣٠",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/915.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 242,
+    "concept_en": "4",
+    "concept_ar": "٤",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/350.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 243,
+    "concept_en": "40",
+    "concept_ar": "٤٠",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/349.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 244,
+    "concept_en": "5",
+    "concept_ar": "٥",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/330.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 245,
+    "concept_en": "50",
+    "concept_ar": "٥٠",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/324.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 246,
+    "concept_en": "6",
+    "concept_ar": "٦",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/794.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 247,
+    "concept_en": "60",
+    "concept_ar": "٦٠",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/796.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 248,
+    "concept_en": "7",
+    "concept_ar": "٧",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/770.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 249,
+    "concept_en": "70",
+    "concept_ar": "٧٠",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/772.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 250,
+    "concept_en": "8",
+    "concept_ar": "٨",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/269.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 251,
+    "concept_en": "80",
+    "concept_ar": "٨٠",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/271.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 252,
+    "concept_en": "9",
+    "concept_ar": "٩",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/582.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 253,
+    "concept_en": "90",
+    "concept_ar": "٩٠",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/584.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 254,
+    "concept_en": "accomplir",
+    "concept_ar": "ينجز",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/7.mp4",
+    "status": "partial",
+    "category": "verbs"
+  },
+  {
+    "id": 255,
+    "concept_en": "acteur",
+    "concept_ar": "ممثل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/9.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 256,
+    "concept_en": "actualités",
+    "concept_ar": "أخبار",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/577.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 257,
+    "concept_en": "adapter",
+    "concept_ar": "يتكيف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/10.mp4",
+    "status": "partial",
+    "category": "verbs"
+  },
+  {
+    "id": 258,
+    "concept_en": "admirer",
+    "concept_ar": "يعجب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/12.mp4",
+    "status": "partial",
+    "category": "verbs"
+  },
+  {
+    "id": 259,
+    "concept_en": "agripper",
+    "concept_ar": "يمسك بقوة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/383.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 260,
+    "concept_en": "agréable",
+    "concept_ar": "ممتع",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/664.mp4",
+    "status": "partial",
+    "category": "nouns"
+  },
+  {
+    "id": 261,
+    "concept_en": "aigre",
+    "concept_ar": "حامض",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/825.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 262,
+    "concept_en": "aimer bien",
+    "concept_ar": "يحب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/495.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 263,
+    "concept_en": "allumer",
+    "concept_ar": "يشعل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/954.mp4",
+    "status": "partial",
+    "category": "verbs"
+  },
+  {
+    "id": 264,
+    "concept_en": "amener",
+    "concept_ar": "يُحضر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/107.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 265,
+    "concept_en": "amusement",
+    "concept_ar": "تسلية",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/360.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 266,
+    "concept_en": "amère",
+    "concept_ar": "مُرّ",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/87.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 267,
+    "concept_en": "an",
+    "concept_ar": "سنة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1040.mp4",
+    "status": "partial",
+    "category": "nouns"
+  },
+  {
+    "id": 268,
+    "concept_en": "Angleterre",
+    "concept_ar": "إنجلترا",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/283.mp4",
+    "status": "partial",
+    "category": "verbs"
+  },
+  {
+    "id": 269,
+    "concept_en": "anneau",
+    "concept_ar": "خاتم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/736.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 270,
+    "concept_en": "annonce publique",
+    "concept_ar": "إعلان عام",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/693.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 271,
+    "concept_en": "appartement",
+    "concept_ar": "شقة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/35.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 272,
+    "concept_en": "après demain",
+    "concept_ar": "بعد غد",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/208.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 273,
+    "concept_en": "après midi",
+    "concept_ar": "بعد الظهر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/17.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 274,
+    "concept_en": "arranger",
+    "concept_ar": "يُرتّب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/43.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 275,
+    "concept_en": "arrivée",
+    "concept_ar": "وصول",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/44.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 276,
+    "concept_en": "artisan",
+    "concept_ar": "حرفي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/190.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 277,
+    "concept_en": "assez",
+    "concept_ar": "كافٍ",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/285.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 278,
+    "concept_en": "atteindre",
+    "concept_ar": "يصل إلى",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/708.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 279,
+    "concept_en": "au-dessous",
+    "concept_ar": "تحت",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/961.mp4",
+    "status": "new",
+    "category": "prepositions"
+  },
+  {
+    "id": 280,
+    "concept_en": "aussi",
+    "concept_ar": "أيضاً",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/29.mp4",
+    "status": "partial",
+    "category": "adverbs"
+  },
+  {
+    "id": 281,
+    "concept_en": "autobus",
+    "concept_ar": "حافلة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/111.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 282,
+    "concept_en": "autorisation",
+    "concept_ar": "إذن",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/54.mp4",
+    "status": "partial",
+    "category": "nouns"
+  },
+  {
+    "id": 283,
+    "concept_en": "avertir",
+    "concept_ar": "يحذر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/987.mp4",
+    "status": "partial",
+    "category": "verbs"
+  },
+  {
+    "id": 284,
+    "concept_en": "avocat",
+    "concept_ar": "محامي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/481.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 285,
+    "concept_en": "avoir peur",
+    "concept_ar": "يخاف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/66.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 286,
+    "concept_en": "avoir soif",
+    "concept_ar": "يعطش",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/913.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 287,
+    "concept_en": "avoir sommeil",
+    "concept_ar": "يشعر بالنعاس",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/69.mp4",
+    "status": "partial",
+    "category": "nouns"
+  },
+  {
+    "id": 288,
+    "concept_en": "aéroport",
+    "concept_ar": "مطار",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/23.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 289,
+    "concept_en": "balayer",
+    "concept_ar": "يكنس",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/882.mp4",
+    "status": "partial",
+    "category": "verbs"
+  },
+  {
+    "id": 290,
+    "concept_en": "balle",
+    "concept_ar": "كرة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/62.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 291,
+    "concept_en": "Berlin",
+    "concept_ar": "برلين",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/79.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 292,
+    "concept_en": "besoin",
+    "concept_ar": "حاجة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/571.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 293,
+    "concept_en": "beurre",
+    "concept_ar": "زبدة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/113.mp4",
+    "status": "partial",
+    "category": "verbs"
+  },
+  {
+    "id": 294,
+    "concept_en": "bientôt",
+    "concept_ar": "قريباً",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/820.mp4",
+    "status": "partial",
+    "category": "adverbs"
+  },
+  {
+    "id": 295,
+    "concept_en": "billet",
+    "concept_ar": "تذكرة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/921.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 296,
+    "concept_en": "bise",
+    "concept_ar": "قُبلة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/464.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 297,
+    "concept_en": "bizarre",
+    "concept_ar": "غريب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1002.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 298,
+    "concept_en": "bière",
+    "concept_ar": "بيرة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/72.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 299,
+    "concept_en": "blessure",
+    "concept_ar": "جُرح",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1036.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 300,
+    "concept_en": "boisson",
+    "concept_ar": "مشروب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/82.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 301,
+    "concept_en": "bonne nuit",
+    "concept_ar": "تصبح على خير",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/381.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 302,
+    "concept_en": "bonsoir",
+    "concept_ar": "مساء الخير",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/379.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 303,
+    "concept_en": "bouger",
+    "concept_ar": "يتحرك",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/557.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 304,
+    "concept_en": "bouillir",
+    "concept_ar": "يغلي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/94.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 305,
+    "concept_en": "boulangerie",
+    "concept_ar": "مخبزة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/61.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 306,
+    "concept_en": "bouton",
+    "concept_ar": "زر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/114.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 307,
+    "concept_en": "boîte",
+    "concept_ar": "علبة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/99.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 308,
+    "concept_en": "boîte de conserve",
+    "concept_ar": "علبة معلّبات",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/924.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 309,
+    "concept_en": "branche",
+    "concept_ar": "فرع",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/101.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 310,
+    "concept_en": "bravo",
+    "concept_ar": "برافو",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/102.mp4",
+    "status": "partial",
+    "category": "nouns"
+  },
+  {
+    "id": 311,
+    "concept_en": "bref",
+    "concept_ar": "مختصر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/106.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 312,
+    "concept_en": "briller",
+    "concept_ar": "يلمع",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/778.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 313,
+    "concept_en": "brosse",
+    "concept_ar": "فرشاة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/109.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 314,
+    "concept_en": "brouillard",
+    "concept_ar": "ضباب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/337.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 315,
+    "concept_en": "but",
+    "concept_ar": "هدف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/695.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 316,
+    "concept_en": "but",
+    "concept_ar": "هدف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/891.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 317,
+    "concept_en": "bâton",
+    "concept_ar": "عصا",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/846.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 318,
+    "concept_en": "cage d'escalier",
+    "concept_ar": "بئر السلم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/837.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 319,
+    "concept_en": "calculer",
+    "concept_ar": "يحسب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/117.mp4",
+    "status": "partial",
+    "category": "verbs"
+  },
+  {
+    "id": 320,
+    "concept_en": "camion",
+    "concept_ar": "شاحنة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/945.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 321,
+    "concept_en": "capable",
+    "concept_ar": "قادر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/123.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 322,
+    "concept_en": "capitale",
+    "concept_ar": "عاصمة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/124.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 323,
+    "concept_en": "caractère",
+    "concept_ar": "شخصية",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/138.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 324,
+    "concept_en": "caravane",
+    "concept_ar": "قافلة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/126.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 325,
+    "concept_en": "carrefour",
+    "concept_ar": "مفترق طرق",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/194.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 326,
+    "concept_en": "carte",
+    "concept_ar": "بطاقة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/522.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 327,
+    "concept_en": "ceinture",
+    "concept_ar": "حزام",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/77.mp4",
+    "status": "partial",
+    "category": "verbs"
+  },
+  {
+    "id": 328,
+    "concept_en": "cendre",
+    "concept_ar": "رماد",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/46.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 329,
+    "concept_en": "champ",
+    "concept_ar": "حقل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/322.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 330,
+    "concept_en": "chance",
+    "concept_ar": "حظ",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/511.mp4",
+    "status": "partial",
+    "category": "nouns"
+  },
+  {
+    "id": 331,
+    "concept_en": "charbon",
+    "concept_ar": "فحم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/160.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 332,
+    "concept_en": "chaussettes",
+    "concept_ar": "جوارب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/812.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 333,
+    "concept_en": "chaîne",
+    "concept_ar": "سلسلة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/134.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 334,
+    "concept_en": "chemin",
+    "concept_ar": "طريق",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/637.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 335,
+    "concept_en": "chemin",
+    "concept_ar": "طريق",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/994.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 336,
+    "concept_en": "chemisier",
+    "concept_ar": "بلوزة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/90.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 337,
+    "concept_en": "cher",
+    "concept_ar": "غالي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/304.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 338,
+    "concept_en": "chose",
+    "concept_ar": "شيء",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/910.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 339,
+    "concept_en": "chèque",
+    "concept_ar": "شيك",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/141.mp4",
+    "status": "partial",
+    "category": "nouns"
+  },
+  {
+    "id": 340,
+    "concept_en": "citoyen",
+    "concept_ar": "مواطن",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/153.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 341,
+    "concept_en": "client",
+    "concept_ar": "زبون",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/197.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 342,
+    "concept_en": "clou",
+    "concept_ar": "مسمار",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/563.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 343,
+    "concept_en": "coller",
+    "concept_ar": "يلصق",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/847.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 344,
+    "concept_en": "colline",
+    "concept_ar": "تلة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/419.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 345,
+    "concept_en": "commerçant",
+    "concept_ar": "تاجر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/939.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 346,
+    "concept_en": "commun",
+    "concept_ar": "مشترك",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/170.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 347,
+    "concept_en": "communauté",
+    "concept_ar": "مجتمع",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/171.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 348,
+    "concept_en": "communication",
+    "concept_ar": "اتصال",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/175.mp4",
+    "status": "partial",
+    "category": "nouns"
+  },
+  {
+    "id": 349,
+    "concept_en": "compagnie",
+    "concept_ar": "شركة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/172.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 350,
+    "concept_en": "comparer",
+    "concept_ar": "يُقارن",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/173.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 351,
+    "concept_en": "conduire",
+    "concept_ar": "يقود",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/254.mp4",
+    "status": "partial",
+    "category": "verbs"
+  },
+  {
+    "id": 352,
+    "concept_en": "confortable",
+    "concept_ar": "مريح",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/169.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 353,
+    "concept_en": "confus",
+    "concept_ar": "مرتبك",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/176.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 354,
+    "concept_en": "connaissance",
+    "concept_ar": "معرفة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/471.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 355,
+    "concept_en": "connaître",
+    "concept_ar": "يعرف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/469.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 356,
+    "concept_en": "conseiller",
+    "concept_ar": "ينصح",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/15.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 357,
+    "concept_en": "continu",
+    "concept_ar": "مستمر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/178.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 358,
+    "concept_en": "contre",
+    "concept_ar": "ضد",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/19.mp4",
+    "status": "new",
+    "category": "prepositions"
+  },
+  {
+    "id": 359,
+    "concept_en": "copie",
+    "concept_ar": "نسخة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/180.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 360,
+    "concept_en": "coucher du soleil",
+    "concept_ar": "غروب الشمس",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/876.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 361,
+    "concept_en": "coudé",
+    "concept_ar": "منحني",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/193.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 362,
+    "concept_en": "coup de pied",
+    "concept_ar": "ركلة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/460.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 363,
+    "concept_en": "cour de maison",
+    "concept_ar": "فناء المنزل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/187.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 364,
+    "concept_en": "courant",
+    "concept_ar": "تيار",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/858.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 365,
+    "concept_en": "courrier",
+    "concept_ar": "بريد",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/516.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 366,
+    "concept_en": "cours",
+    "concept_ar": "دورة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/185.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 367,
+    "concept_en": "creuser",
+    "concept_ar": "يحفر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/230.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 368,
+    "concept_en": "cru",
+    "concept_ar": "نيء",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/707.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 369,
+    "concept_en": "créer",
+    "concept_ar": "يُنشئ",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/192.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 370,
+    "concept_en": "cuiller",
+    "concept_ar": "ملعقة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/832.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 371,
+    "concept_en": "cuire",
+    "concept_ar": "يطبخ",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/179.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 372,
+    "concept_en": "célèbre",
+    "concept_ar": "مشهور",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/312.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 373,
+    "concept_en": "célébrer",
+    "concept_ar": "يحتفل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/132.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 374,
+    "concept_en": "côte",
+    "concept_ar": "ساحل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/161.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 375,
+    "concept_en": "d'accord",
+    "concept_ar": "موافق",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/21.mp4",
+    "status": "partial",
+    "category": "nouns"
+  },
+  {
+    "id": 376,
+    "concept_en": "d'une façon ou d'une autre",
+    "concept_ar": "بطريقة أو بأخرى",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/815.mp4",
+    "status": "new",
+    "category": "prepositions"
+  },
+  {
+    "id": 377,
+    "concept_en": "dame",
+    "concept_ar": "سيدة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/475.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 378,
+    "concept_en": "de temps en temps",
+    "concept_ar": "من وقت لآخر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/357.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 379,
+    "concept_en": "degré",
+    "concept_ar": "درجة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/216.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 380,
+    "concept_en": "demander qqch.",
+    "concept_ar": "يطلب شيئاً",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/48.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 381,
+    "concept_en": "dessin",
+    "concept_ar": "رسم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/250.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 382,
+    "concept_en": "dettes",
+    "concept_ar": "ديون",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/211.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 383,
+    "concept_en": "devoir de l'argent",
+    "concept_ar": "يدين بمال",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/621.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 384,
+    "concept_en": "dictionnaire",
+    "concept_ar": "قاموس",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/226.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 385,
+    "concept_en": "directeur",
+    "concept_ar": "مدير",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/233.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 386,
+    "concept_en": "directive",
+    "concept_ar": "توجيه",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/232.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 387,
+    "concept_en": "distinguer",
+    "concept_ar": "يميّز",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/242.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 388,
+    "concept_en": "diviser",
+    "concept_ar": "يقسم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/831.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 389,
+    "concept_en": "donc",
+    "concept_ar": "إذاً",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/177.mp4",
+    "status": "partial",
+    "category": "nouns"
+  },
+  {
+    "id": 390,
+    "concept_en": "donner naissance",
+    "concept_ar": "يلد",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/374.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 391,
+    "concept_en": "doux",
+    "concept_ar": "ناعم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/813.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 392,
+    "concept_en": "doux",
+    "concept_ar": "ناعم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/883.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 393,
+    "concept_en": "déchirer",
+    "concept_ar": "يمزق",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/898.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 394,
+    "concept_en": "déclarer",
+    "concept_ar": "يُعلن",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/214.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 395,
+    "concept_en": "décès",
+    "concept_ar": "وفاة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/210.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 396,
+    "concept_en": "défendre",
+    "concept_ar": "يدافع",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/215.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 397,
+    "concept_en": "dégâts",
+    "concept_ar": "أضرار",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/201.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 398,
+    "concept_en": "déjà",
+    "concept_ar": "سابقاً",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/28.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 399,
+    "concept_en": "déménager",
+    "concept_ar": "ينتقل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/558.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 400,
+    "concept_en": "départ",
+    "concept_ar": "مغادرة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/222.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 401,
+    "concept_en": "dépenser",
+    "concept_ar": "ينفق",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/830.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 402,
+    "concept_en": "dépenses",
+    "concept_ar": "مصاريف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/303.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 403,
+    "concept_en": "dépôt",
+    "concept_ar": "وديعة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/853.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 404,
+    "concept_en": "dérober",
+    "concept_ar": "يسرق",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/843.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 405,
+    "concept_en": "désaccord",
+    "concept_ar": "خلاف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/236.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 406,
+    "concept_en": "désavantage",
+    "concept_ar": "عيب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/235.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 407,
+    "concept_en": "désolé",
+    "concept_ar": "آسف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/821.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 408,
+    "concept_en": "désordre",
+    "concept_ar": "فوضى",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/239.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 409,
+    "concept_en": "détruire",
+    "concept_ar": "يدمر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/745.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 410,
+    "concept_en": "déçu",
+    "concept_ar": "مخيّب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/237.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 411,
+    "concept_en": "à l'étranger",
+    "concept_ar": "في الخارج",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/2.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 412,
+    "concept_en": "vivant",
+    "concept_ar": "حي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/25.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 413,
+    "concept_en": "embêter",
+    "concept_ar": "يزعج",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/33.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 414,
+    "concept_en": "pomme",
+    "concept_ar": "تفاحة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/37.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 415,
+    "concept_en": "région",
+    "concept_ar": "منطقة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/40.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 416,
+    "concept_en": "fauteuil",
+    "concept_ar": "كرسي بذراعين",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/41.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 417,
+    "concept_en": "enfin",
+    "concept_ar": "أخيرا",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/50.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 418,
+    "concept_en": "éviter",
+    "concept_ar": "يتجنب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/57.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 419,
+    "concept_en": "être impressionné",
+    "concept_ar": "منبهر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/68.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 420,
+    "concept_en": "plier",
+    "concept_ar": "يطوي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/78.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 421,
+    "concept_en": "tromper",
+    "concept_ar": "يخدع",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/80.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 422,
+    "concept_en": "sang",
+    "concept_ar": "دم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/89.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 423,
+    "concept_en": "pause",
+    "concept_ar": "استراحة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/104.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 424,
+    "concept_en": "s'appeler",
+    "concept_ar": "يُسمى",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/118.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 425,
+    "concept_en": "prendre soin",
+    "concept_ar": "يعتني",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/127.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 426,
+    "concept_en": "tapis",
+    "concept_ar": "سجادة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/128.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 427,
+    "concept_en": "siècle",
+    "concept_ar": "قرن",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/133.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 428,
+    "concept_en": "pas cher",
+    "concept_ar": "رخيص",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/139.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 429,
+    "concept_en": "poulet",
+    "concept_ar": "دجاج",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/144.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 430,
+    "concept_en": "frais",
+    "concept_ar": "طازج",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/146.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 431,
+    "concept_en": "Noël",
+    "concept_ar": "عيد الميلاد",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/148.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 432,
+    "concept_en": "peigne",
+    "concept_ar": "مشط",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/167.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 433,
+    "concept_en": "plaindre",
+    "concept_ar": "يشفق",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/174.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 434,
+    "concept_en": "tousser",
+    "concept_ar": "يسعل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/182.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 435,
+    "concept_en": "Etat",
+    "concept_ar": "دولة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/183.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 436,
+    "concept_en": "vache",
+    "concept_ar": "بقرة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/188.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 437,
+    "concept_en": "froussard",
+    "concept_ar": "جبان",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/189.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 438,
+    "concept_en": "quotidiennement",
+    "concept_ar": "يوميا",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/200.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 439,
+    "concept_en": "retard",
+    "concept_ar": "تأخير",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/217.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 440,
+    "concept_en": "intentionnellement",
+    "concept_ar": "عمدا",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/218.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 441,
+    "concept_en": "nier",
+    "concept_ar": "ينكر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/221.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 442,
+    "concept_en": "profondeur",
+    "concept_ar": "عمق",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/223.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 443,
+    "concept_en": "mourir",
+    "concept_ar": "يموت",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/227.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 444,
+    "concept_en": "ne pas connaître",
+    "concept_ar": "لا يعرف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/244.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 445,
+    "concept_en": "lâcher",
+    "concept_ar": "يطلق",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/256.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 446,
+    "concept_en": "poussière",
+    "concept_ar": "غبار",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/258.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 447,
+    "concept_en": "habiter",
+    "concept_ar": "يسكن",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/260.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 448,
+    "concept_en": "œuf",
+    "concept_ar": "بيضة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/268.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 449,
+    "concept_en": "élection",
+    "concept_ar": "انتخابات",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/272.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 450,
+    "concept_en": "élégant",
+    "concept_ar": "أنيق",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/274.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 451,
+    "concept_en": "employé",
+    "concept_ar": "موظف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/276.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 452,
+    "concept_en": "vider",
+    "concept_ar": "يفرغ",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/278.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 453,
+    "concept_en": "fin",
+    "concept_ar": "نهاية",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/279.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 454,
+    "concept_en": "ingenieur",
+    "concept_ar": "مهندس",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/282.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 455,
+    "concept_en": "profiter",
+    "concept_ar": "يستفيد",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/284.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 456,
+    "concept_en": "tout le monde",
+    "concept_ar": "الجميع",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/294.mp4",
+    "status": "new",
+    "category": "pronouns"
+  },
+  {
+    "id": 457,
+    "concept_en": "partout",
+    "concept_ar": "في كل مكان",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/296.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 458,
+    "concept_en": "exagérer",
+    "concept_ar": "يبالغ",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/297.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 459,
+    "concept_en": "s'excuser",
+    "concept_ar": "يعتذر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/300.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 460,
+    "concept_en": "exercice",
+    "concept_ar": "تمرين",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/301.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 461,
+    "concept_en": "sortie",
+    "concept_ar": "مخرج",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/302.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 462,
+    "concept_en": "œil",
+    "concept_ar": "عين",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/306.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 463,
+    "concept_en": "tissu",
+    "concept_ar": "قماش",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/307.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 464,
+    "concept_en": "usine",
+    "concept_ar": "مصنع",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/309.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 465,
+    "concept_en": "paysan",
+    "concept_ar": "فلاح",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/314.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 466,
+    "concept_en": "vite",
+    "concept_ar": "بسرعة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/315.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 467,
+    "concept_en": "gros",
+    "concept_ar": "ضخم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/316.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 468,
+    "concept_en": "ressentir",
+    "concept_ar": "يشعر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/320.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 469,
+    "concept_en": "remplir",
+    "concept_ar": "يملأ",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/325.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 470,
+    "concept_en": "sol",
+    "concept_ar": "أرضية",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/332.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 471,
+    "concept_en": "voler",
+    "concept_ar": "يطير",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/336.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 472,
+    "concept_en": "interdit",
+    "concept_ar": "ممنوع",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/342.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 473,
+    "concept_en": "frais",
+    "concept_ar": "نفقات",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/354.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 474,
+    "concept_en": "meubles",
+    "concept_ar": "أثاث",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/362.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 475,
+    "concept_en": "gaz",
+    "concept_ar": "غاز",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/366.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 476,
+    "concept_en": "en général",
+    "concept_ar": "بشكل عام",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/368.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 477,
+    "concept_en": "verre",
+    "concept_ar": "زجاج",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/375.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 478,
+    "concept_en": "herbe",
+    "concept_ar": "عشب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/385.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 479,
+    "concept_en": "Grèce",
+    "concept_ar": "اليونان",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/386.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 480,
+    "concept_en": "gris",
+    "concept_ar": "رمادي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/389.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 481,
+    "concept_en": "sol",
+    "concept_ar": "تربة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/390.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 482,
+    "concept_en": "fusil",
+    "concept_ar": "بندقية",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/393.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 483,
+    "concept_en": "gymnastique",
+    "concept_ar": "جمباز",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/394.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 484,
+    "concept_en": "guérir",
+    "concept_ar": "يشفي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/407.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 485,
+    "concept_en": "hauteur",
+    "concept_ar": "ارتفاع",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/413.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 486,
+    "concept_en": "hésiter",
+    "concept_ar": "يتردد",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/417.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 487,
+    "concept_en": "humain",
+    "concept_ar": "إنسان",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/428.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 488,
+    "concept_en": "humour",
+    "concept_ar": "فكاهة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/429.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 489,
+    "concept_en": "faim",
+    "concept_ar": "جوع",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/431.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 490,
+    "concept_en": "se dépêcher",
+    "concept_ar": "يستعجل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/432.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 491,
+    "concept_en": "immédiatement",
+    "concept_ar": "فورا",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/437.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 492,
+    "concept_en": "innocent",
+    "concept_ar": "بريء",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/443.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 493,
+    "concept_en": "insecte",
+    "concept_ar": "حشرة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/444.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 494,
+    "concept_en": "fer",
+    "concept_ar": "حديد",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/448.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 495,
+    "concept_en": "île",
+    "concept_ar": "جزيرة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/449.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 496,
+    "concept_en": "veste",
+    "concept_ar": "سترة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/450.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 497,
+    "concept_en": "garder",
+    "concept_ar": "يحتفظ",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/458.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 498,
+    "concept_en": "kiosque",
+    "concept_ar": "كشك",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/463.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 499,
+    "concept_en": "tricoter",
+    "concept_ar": "يحوك",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/468.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 500,
+    "concept_en": "échelle",
+    "concept_ar": "سلم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/474.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 501,
+    "concept_en": "lac",
+    "concept_ar": "بحيرة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/476.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 502,
+    "concept_en": "plus tard",
+    "concept_ar": "لاحقا",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/478.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 503,
+    "concept_en": "laisser",
+    "concept_ar": "يترك",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/483.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 504,
+    "concept_en": "prêter",
+    "concept_ar": "يقرض",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/485.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 505,
+    "concept_en": "longueur",
+    "concept_ar": "طول",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/486.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 506,
+    "concept_en": "laisser",
+    "concept_ar": "يغادر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/487.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 507,
+    "concept_en": "file",
+    "concept_ar": "صف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/496.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 508,
+    "concept_en": "liquide",
+    "concept_ar": "سائل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/497.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 509,
+    "concept_en": "littérature",
+    "concept_ar": "أدب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/499.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 510,
+    "concept_en": "vivre",
+    "concept_ar": "يعيش",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/500.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 511,
+    "concept_en": "habiter",
+    "concept_ar": "يقطن",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/501.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 512,
+    "concept_en": "serrure",
+    "concept_ar": "قفل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/502.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 513,
+    "concept_en": "Londres",
+    "concept_ar": "لندن",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/503.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 514,
+    "concept_en": "solitaire",
+    "concept_ar": "منعزل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/504.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 515,
+    "concept_en": "s'occuper de",
+    "concept_ar": "يهتم بـ",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/507.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 516,
+    "concept_en": "machine",
+    "concept_ar": "آلة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/514.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 517,
+    "concept_en": "magazine",
+    "concept_ar": "مجلة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/515.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 518,
+    "concept_en": "offrir",
+    "concept_ar": "يقدم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/518.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 519,
+    "concept_en": "Maire",
+    "concept_ar": "عمدة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/528.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 520,
+    "concept_en": "signification",
+    "concept_ar": "معنى",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/531.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 521,
+    "concept_en": "mesurer",
+    "concept_ar": "يقيس",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/532.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 522,
+    "concept_en": "médecine",
+    "concept_ar": "دواء",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/534.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 523,
+    "concept_en": "fondre",
+    "concept_ar": "يذوب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/536.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 524,
+    "concept_en": "menacer",
+    "concept_ar": "يهدد",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/537.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 525,
+    "concept_en": "métal",
+    "concept_ar": "معدن",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/538.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 526,
+    "concept_en": "milieu",
+    "concept_ar": "وسط",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/540.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 527,
+    "concept_en": "téléphone portable",
+    "concept_ar": "هاتف محمول",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/546.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 528,
+    "concept_en": "moment",
+    "concept_ar": "لحظة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/547.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 529,
+    "concept_en": "humeur",
+    "concept_ar": "مزاج",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/551.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 530,
+    "concept_en": "nu",
+    "concept_ar": "عار",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/564.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 531,
+    "concept_en": "prénom",
+    "concept_ar": "اسم أول",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/565.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 532,
+    "concept_en": "raconter",
+    "concept_ar": "يحكي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/566.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 533,
+    "concept_en": "national",
+    "concept_ar": "وطني",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/568.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 534,
+    "concept_en": "voisinage",
+    "concept_ar": "حي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/574.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 535,
+    "concept_en": "prochain",
+    "concept_ar": "التالي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/579.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 536,
+    "concept_en": "personne",
+    "concept_ar": "شخص",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/586.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 537,
+    "concept_en": "normal",
+    "concept_ar": "عادي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/588.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 538,
+    "concept_en": "noter",
+    "concept_ar": "يدوّن",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/591.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 539,
+    "concept_en": "notifier",
+    "concept_ar": "يُخطر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/593.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 540,
+    "concept_en": "nulle part",
+    "concept_ar": "لا مكان",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/596.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 541,
+    "concept_en": "infirmière",
+    "concept_ar": "ممرضة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/598.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 542,
+    "concept_en": "noix",
+    "concept_ar": "جوز",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/599.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 543,
+    "concept_en": "objection",
+    "concept_ar": "اعتراض",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/600.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 544,
+    "concept_en": "objets",
+    "concept_ar": "أشياء",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/601.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 545,
+    "concept_en": "obstacle",
+    "concept_ar": "عائق",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/602.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 546,
+    "concept_en": "offencer",
+    "concept_ar": "يسيء",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/604.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 547,
+    "concept_en": "offrir",
+    "concept_ar": "يعرض",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/605.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 548,
+    "concept_en": "Huile",
+    "concept_ar": "زيت",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/607.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 549,
+    "concept_en": "pétrole",
+    "concept_ar": "نفط",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/608.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 550,
+    "concept_en": "sur le dessus",
+    "concept_ar": "في الأعلى",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/610.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 551,
+    "concept_en": "large d'esprit",
+    "concept_ar": "منفتح الذهن",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/613.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 552,
+    "concept_en": "opinion",
+    "concept_ar": "رأي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/614.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 553,
+    "concept_en": "organiser",
+    "concept_ar": "ينظم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/617.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 554,
+    "concept_en": "propriétaire",
+    "concept_ar": "مالك",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/622.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 555,
+    "concept_en": "page",
+    "concept_ar": "صفحة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/625.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 556,
+    "concept_en": "peintre",
+    "concept_ar": "رسام",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/627.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 557,
+    "concept_en": "paume",
+    "concept_ar": "كف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/629.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 558,
+    "concept_en": "se garer",
+    "concept_ar": "يركن",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/633.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 559,
+    "concept_en": "spécial",
+    "concept_ar": "خاص",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/634.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 560,
+    "concept_en": "passé",
+    "concept_ar": "ماض",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/636.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 561,
+    "concept_en": "patience",
+    "concept_ar": "صبر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/638.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 562,
+    "concept_en": "poire",
+    "concept_ar": "كمثرى",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/642.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 563,
+    "concept_en": "gens",
+    "concept_ar": "ناس",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/643.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 564,
+    "concept_en": "poivre",
+    "concept_ar": "فلفل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/644.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 565,
+    "concept_en": "performance",
+    "concept_ar": "أداء",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/645.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 566,
+    "concept_en": "permanent",
+    "concept_ar": "دائم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/646.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 567,
+    "concept_en": "personne",
+    "concept_ar": "شخص",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/647.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 568,
+    "concept_en": "pétrole",
+    "concept_ar": "نفط",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/648.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 569,
+    "concept_en": "photographie",
+    "concept_ar": "تصوير",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/651.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 570,
+    "concept_en": "morceau",
+    "concept_ar": "قطعة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/652.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 571,
+    "concept_en": "pile",
+    "concept_ar": "كومة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/653.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 572,
+    "concept_en": "pilule",
+    "concept_ar": "حبة دواء",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/654.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 573,
+    "concept_en": "pipeline",
+    "concept_ar": "أنبوب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/655.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 574,
+    "concept_en": "pitié",
+    "concept_ar": "شفقة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/656.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 575,
+    "concept_en": "place",
+    "concept_ar": "مكان",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/657.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 576,
+    "concept_en": "plante",
+    "concept_ar": "نبات",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/659.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 577,
+    "concept_en": "planter",
+    "concept_ar": "يزرع",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/660.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 578,
+    "concept_en": "plastique",
+    "concept_ar": "بلاستيك",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/661.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 579,
+    "concept_en": "poison",
+    "concept_ar": "سم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/666.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 580,
+    "concept_en": "policier",
+    "concept_ar": "شرطي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/668.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 581,
+    "concept_en": "poli",
+    "concept_ar": "مهذب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/669.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 582,
+    "concept_en": "population",
+    "concept_ar": "سكان",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/671.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 583,
+    "concept_en": "port",
+    "concept_ar": "ميناء",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/672.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 584,
+    "concept_en": "pomme de terre",
+    "concept_ar": "بطاطا",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/675.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 585,
+    "concept_en": "prier",
+    "concept_ar": "يصلي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/676.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 586,
+    "concept_en": "presser",
+    "concept_ar": "يضغط",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/677.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 587,
+    "concept_en": "proie",
+    "concept_ar": "فريسة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/679.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 588,
+    "concept_en": "prêtre",
+    "concept_ar": "قسيس",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/680.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 589,
+    "concept_en": "privé",
+    "concept_ar": "خاص",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/681.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 590,
+    "concept_en": "produit",
+    "concept_ar": "منتج",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/683.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 591,
+    "concept_en": "interdire",
+    "concept_ar": "يمنع",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/685.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 592,
+    "concept_en": "promettre",
+    "concept_ar": "يعد",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/686.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 593,
+    "concept_en": "propriété biens",
+    "concept_ar": "ملكية",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/687.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 594,
+    "concept_en": "protéger",
+    "concept_ar": "يحمي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/688.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 595,
+    "concept_en": "protester",
+    "concept_ar": "يحتج",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/689.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 596,
+    "concept_en": "fier",
+    "concept_ar": "فخور",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/690.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 597,
+    "concept_en": "élève",
+    "concept_ar": "تلميذ",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/694.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 598,
+    "concept_en": "quart",
+    "concept_ar": "ربع",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/698.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 599,
+    "concept_en": "radiateur",
+    "concept_ar": "مدفأة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/703.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 600,
+    "concept_en": "radio",
+    "concept_ar": "راديو",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/704.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 601,
+    "concept_en": "rare",
+    "concept_ar": "نادر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/706.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 602,
+    "concept_en": "raisonnable",
+    "concept_ar": "معقول",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/712.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 603,
+    "concept_en": "regretter",
+    "concept_ar": "يندم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/716.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 604,
+    "concept_en": "libérer",
+    "concept_ar": "يحرر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/719.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 605,
+    "concept_en": "se rappeler",
+    "concept_ar": "يتذكر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/720.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 606,
+    "concept_en": "rappeler à",
+    "concept_ar": "يذكّر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/721.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 607,
+    "concept_en": "enlever",
+    "concept_ar": "يزيل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/722.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 608,
+    "concept_en": "louer",
+    "concept_ar": "يستأجر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/723.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 609,
+    "concept_en": "réparer",
+    "concept_ar": "يصلح",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/724.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 610,
+    "concept_en": "ruban",
+    "concept_ar": "شريط",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/730.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 611,
+    "concept_en": "à droite",
+    "concept_ar": "إلى اليمين",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/735.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 612,
+    "concept_en": "robuste",
+    "concept_ar": "متين",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/738.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 613,
+    "concept_en": "racine",
+    "concept_ar": "جذر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/741.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 614,
+    "concept_en": "grossièrement",
+    "concept_ar": "بشكل تقريبي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/742.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 615,
+    "concept_en": "rond",
+    "concept_ar": "مستدير",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/743.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 616,
+    "concept_en": "salade",
+    "concept_ar": "سلطة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/746.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 617,
+    "concept_en": "salaire",
+    "concept_ar": "راتب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/747.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 618,
+    "concept_en": "même",
+    "concept_ar": "نفسه",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/749.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 619,
+    "concept_en": "sauce",
+    "concept_ar": "صلصة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/752.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 620,
+    "concept_en": "gratter",
+    "concept_ar": "يحك",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/758.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 621,
+    "concept_en": "vis",
+    "concept_ar": "برغي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/759.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 622,
+    "concept_en": "siège",
+    "concept_ar": "مقعد",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/763.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 623,
+    "concept_en": "servir",
+    "concept_ar": "يخدم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/769.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 624,
+    "concept_en": "ombre",
+    "concept_ar": "ظل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/773.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 625,
+    "concept_en": "partager",
+    "concept_ar": "يشارك",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/774.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 626,
+    "concept_en": "pointu",
+    "concept_ar": "حاد",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/775.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 627,
+    "concept_en": "feuille",
+    "concept_ar": "ورقة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/776.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 628,
+    "concept_en": "étagère",
+    "concept_ar": "رف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/777.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 629,
+    "concept_en": "similaire",
+    "concept_ar": "مشابه",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/790.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 630,
+    "concept_en": "s'asseoir",
+    "concept_ar": "يجلس",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/793.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 631,
+    "concept_en": "sentir",
+    "concept_ar": "يشم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/805.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 632,
+    "concept_en": "savon",
+    "concept_ar": "صابون",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/810.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 633,
+    "concept_en": "un jour ou l'autre",
+    "concept_ar": "يوما ما",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/816.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 634,
+    "concept_en": "quelque part",
+    "concept_ar": "مكان ما",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/818.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 635,
+    "concept_en": "âme",
+    "concept_ar": "روح",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/822.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 636,
+    "concept_en": "source",
+    "concept_ar": "مصدر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/826.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 637,
+    "concept_en": "spectateur",
+    "concept_ar": "متفرج",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/829.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 638,
+    "concept_en": "se tenir debout",
+    "concept_ar": "يقف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/838.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 639,
+    "concept_en": "état",
+    "concept_ar": "ولاية",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/840.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 640,
+    "concept_en": "steak",
+    "concept_ar": "شريحة لحم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/842.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 641,
+    "concept_en": "vapeur",
+    "concept_ar": "بخار",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/844.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 642,
+    "concept_en": "faire un pas",
+    "concept_ar": "يخطو",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/845.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 643,
+    "concept_en": "piquer",
+    "concept_ar": "يلسع",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/848.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 644,
+    "concept_en": "pierre",
+    "concept_ar": "حجر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/850.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 645,
+    "concept_en": "orage",
+    "concept_ar": "عاصفة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/854.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 646,
+    "concept_en": "strict",
+    "concept_ar": "صارم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/860.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 647,
+    "concept_en": "étudiant",
+    "concept_ar": "طالب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/863.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 648,
+    "concept_en": "succès",
+    "concept_ar": "نجاح",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/867.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 649,
+    "concept_en": "soudainement",
+    "concept_ar": "فجأة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/868.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 650,
+    "concept_en": "suggérer",
+    "concept_ar": "يقترح",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/871.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 651,
+    "concept_en": "lever du soleil",
+    "concept_ar": "شروق الشمس",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/875.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 652,
+    "concept_en": "surprise",
+    "concept_ar": "مفاجأة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/878.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 653,
+    "concept_en": "suspect",
+    "concept_ar": "مشتبه به",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/879.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 654,
+    "concept_en": "soupçonner",
+    "concept_ar": "يشتبه",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/880.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 655,
+    "concept_en": "suer",
+    "concept_ar": "يتعرق",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/881.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 656,
+    "concept_en": "nager",
+    "concept_ar": "يسبح",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/884.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 657,
+    "concept_en": "interrupteur",
+    "concept_ar": "مفتاح كهربائي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/885.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 658,
+    "concept_en": "éteindre",
+    "concept_ar": "يطفئ",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/886.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 659,
+    "concept_en": "prendre un bain",
+    "concept_ar": "يستحم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/889.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 660,
+    "concept_en": "savoureux",
+    "concept_ar": "لذيذ",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/893.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 661,
+    "concept_en": "enseignant",
+    "concept_ar": "مدرس",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/896.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 662,
+    "concept_en": "équipe",
+    "concept_ar": "فريق",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/897.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 663,
+    "concept_en": "temporaire",
+    "concept_ar": "مؤقت",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/899.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 664,
+    "concept_en": "louer",
+    "concept_ar": "يؤجر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/901.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 665,
+    "concept_en": "tente",
+    "concept_ar": "خيمة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/902.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 666,
+    "concept_en": "texte",
+    "concept_ar": "نص",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/903.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 667,
+    "concept_en": "puis",
+    "concept_ar": "ثم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/907.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 668,
+    "concept_en": "fin",
+    "concept_ar": "نهاية",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/908.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 669,
+    "concept_en": "mince",
+    "concept_ar": "نحيف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/909.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 670,
+    "concept_en": "menace",
+    "concept_ar": "تهديد",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/916.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 671,
+    "concept_en": "lancer",
+    "concept_ar": "يرمي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/918.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 672,
+    "concept_en": "jeter à la poubelle",
+    "concept_ar": "يرمي في القمامة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/919.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 673,
+    "concept_en": "tolérer",
+    "concept_ar": "يتحمل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/927.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 674,
+    "concept_en": "outils",
+    "concept_ar": "أدوات",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/931.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 675,
+    "concept_en": "serviette",
+    "concept_ar": "منشفة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/934.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 676,
+    "concept_en": "mairie",
+    "concept_ar": "بلدية",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/936.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 677,
+    "concept_en": "feu de circulation",
+    "concept_ar": "إشارة المرور",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/940.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 678,
+    "concept_en": "faire confiance",
+    "concept_ar": "يثق",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/947.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 679,
+    "concept_en": "tube",
+    "concept_ar": "أنبوب",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/950.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 680,
+    "concept_en": "tournant",
+    "concept_ar": "منعطف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/952.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 681,
+    "concept_en": "tourner",
+    "concept_ar": "يدور",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/953.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 682,
+    "concept_en": "métro",
+    "concept_ar": "مترو",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/962.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 683,
+    "concept_en": "malheureusement",
+    "concept_ar": "لسوء الحظ",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/964.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 684,
+    "concept_en": "inconnu",
+    "concept_ar": "مجهول",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/965.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 685,
+    "concept_en": "malchanceux",
+    "concept_ar": "سيء الحظ",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/966.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 686,
+    "concept_en": "en haut   au-dessus de",
+    "concept_ar": "فوق",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/968.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 687,
+    "concept_en": "en montant",
+    "concept_ar": "صعودا",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/969.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 688,
+    "concept_en": "utiliser",
+    "concept_ar": "يستخدم",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/971.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 689,
+    "concept_en": "utile",
+    "concept_ar": "مفيد",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/972.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 690,
+    "concept_en": "victime",
+    "concept_ar": "ضحية",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/975.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 691,
+    "concept_en": "vue",
+    "concept_ar": "منظر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/976.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 692,
+    "concept_en": "villa",
+    "concept_ar": "فيلا",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/977.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 693,
+    "concept_en": "visite",
+    "concept_ar": "زيارة",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/980.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 694,
+    "concept_en": "voter",
+    "concept_ar": "يصوّت",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/983.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 695,
+    "concept_en": "montre",
+    "concept_ar": "ساعة يد",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/989.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 696,
+    "concept_en": "peser",
+    "concept_ar": "يزن",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1000.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 697,
+    "concept_en": "poids",
+    "concept_ar": "وزن",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1001.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 698,
+    "concept_en": "quoi",
+    "concept_ar": "ماذا",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1006.mp4",
+    "status": "new",
+    "category": "pronouns"
+  },
+  {
+    "id": 699,
+    "concept_en": "volant",
+    "concept_ar": "مقود",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1007.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 700,
+    "concept_en": "pendant que",
+    "concept_ar": "بينما",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1011.mp4",
+    "status": "new",
+    "category": "adverbs"
+  },
+  {
+    "id": 701,
+    "concept_en": "entier",
+    "concept_ar": "كامل",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1014.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 702,
+    "concept_en": "sauvage",
+    "concept_ar": "بري",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1017.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 703,
+    "concept_en": "être disposé à",
+    "concept_ar": "مستعد",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1018.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 704,
+    "concept_en": "victoire",
+    "concept_ar": "نصر",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1019.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 705,
+    "concept_en": "vin",
+    "concept_ar": "نبيذ",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1022.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 706,
+    "concept_en": "fil électrique",
+    "concept_ar": "سلك كهربائي",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1025.mp4",
+    "status": "new",
+    "category": "nouns"
+  },
+  {
+    "id": 707,
+    "concept_en": "souhaiter",
+    "concept_ar": "يتمنى",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1026.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 708,
+    "concept_en": "formidable",
+    "concept_ar": "رائع",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1030.mp4",
+    "status": "new",
+    "category": "adjectives"
+  },
+  {
+    "id": 709,
+    "concept_en": "s'inquiéter",
+    "concept_ar": "يقلق",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1035.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 710,
+    "concept_en": "envelopper",
+    "concept_ar": "يلف",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1037.mp4",
+    "status": "new",
+    "category": "verbs"
+  },
+  {
+    "id": 711,
+    "concept_en": "noter",
+    "concept_ar": "يدوّن",
+    "video": "https://www.sign-lang.uni-hamburg.de/dicta-sign/portal/concepts/lsf/1039.mp4",
+    "status": "new",
+    "category": "verbs"
+  }
+]

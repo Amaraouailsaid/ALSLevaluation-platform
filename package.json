@@ -1,0 +1,20 @@
+{
+  "name": "alsl-sign-evaluation-app",
+  "version": "1.10.5",
+  "description": "Algerian Sign Language sign evaluation app for thesis research.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-sqlite3": "^0.9.13",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "sqlite3": "^5.1.7"
+  }
+}

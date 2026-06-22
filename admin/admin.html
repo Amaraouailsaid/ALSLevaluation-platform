@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALSL Admin — Statistics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b0e17;
+      --surface: #141a28;
+      --surface2: #1a2236;
+      --border: #232b42;
+      --text: #e6ecff;
+      --muted: #8a94b0;
+      --accent: #6b83e8;
+      --yes: #4ade80;
+      --no: #f87171;
+      --almost: #fbbf24;
+      --flag: #f472b6;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: "IBM Plex Sans", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      min-height: 100vh;
+      padding: 24px;
+    }
+    .wrap { max-width: 1200px; margin: 0 auto; }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    h1 { font-size: 1.4rem; margin: 0; }
+    h1 .sub { color: var(--muted); font-weight: 400; font-size: 0.95rem; margin-left: 8px; }
+    .logout-btn {
+      padding: 8px 14px;
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      border-radius: 8px;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 0.85rem;
+    }
+    .logout-btn:hover { border-color: var(--no); color: var(--no); }
+
+    .overview {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+      margin-bottom: 28px;
+    }
+    .stat-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px;
+    }
+    .stat-card .num { font-size: 2rem; font-weight: 700; margin: 4px 0; }
+    .stat-card .label { color: var(--muted); font-size: 0.82rem; }
+
+    .section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 22px;
+      margin-bottom: 22px;
+    }
+    .section h2 { font-size: 1rem; margin: 0 0 14px; color: var(--accent); }
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 14px;
+      background: var(--accent);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 500;
+      cursor: pointer;
+      font-family: inherit;
+      transition: background 0.15s;
+    }
+    .btn:hover { background: #5a7ce0; }
+    .btn.secondary {
+      background: var(--surface2);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+    .btn.secondary:hover { border-color: var(--accent); background: var(--surface2); }
+    .btn.danger {
+      background: rgba(248,113,113,0.1);
+      color: var(--no);
+      border: 1px solid rgba(248,113,113,0.2);
+    }
+    .btn.danger:hover { background: rgba(248,113,113,0.2); border-color: var(--no); }
+    .btn.sm { padding: 4px 10px; font-size: 0.78rem; }
+
+    table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+    th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; }
+    tr:last-child td { border-bottom: none; }
+    tr.clickable:hover td { background: var(--surface2); cursor: pointer; }
+
+    .pill { display: inline-block; padding: 2px 8px; border-radius: 100px; font-size: 0.75rem; font-weight: 500; }
+    .pill.yes    { background: rgba(74,222,128,0.15); color: var(--yes); }
+    .pill.no     { background: rgba(248,113,113,0.15); color: var(--no); }
+    .pill.almost { background: rgba(251,191,36,0.15); color: var(--almost); }
+    .pill.flag   { background: rgba(244,114,182,0.15); color: var(--flag); }
+
+    .progress-mini {
+      display: inline-block; width: 80px; height: 6px;
+      background: var(--surface2); border-radius: 100px; overflow: hidden;
+      vertical-align: middle; margin-right: 6px;
+    }
+    .progress-mini-bar { height: 100%; background: linear-gradient(90deg, var(--accent), var(--yes)); }
+
+    .acc-badge { display: inline-block; padding: 2px 8px; border-radius: 100px; font-size: 0.75rem; font-weight: 600; }
+    .acc-high   { background: rgba(74,222,128,0.15); color: var(--yes); }
+    .acc-medium { background: rgba(251,191,36,0.15); color: var(--almost); }
+    .acc-low    { background: rgba(248,113,113,0.15); color: var(--no); }
+
+    .muted { color: var(--muted); }
+    .loading { padding: 24px; text-align: center; color: var(--muted); }
+    .comment-cell {
+      max-width: 200px; overflow: hidden; text-overflow: ellipsis;
+      white-space: nowrap; font-size: 0.8rem; color: var(--muted);
+    }
+    .actions-cell { white-space: nowrap; display: flex; gap: 6px; align-items: center; }
+
+    .modal-overlay {
+      display: none; position: fixed; inset: 0;
+      background: rgba(0,0,0,0.72); z-index: 100;
+      align-items: center; justify-content: center; padding: 16px;
+    }
+    .modal-overlay.open { display: flex; }
+    .modal {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 16px; width: 100%; max-width: 900px;
+      max-height: 90vh; display: flex; flex-direction: column; overflow: hidden;
+    }
+    .modal-header {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 18px 22px; border-bottom: 1px solid var(--border); flex-shrink: 0;
+    }
+    .modal-header h3 { margin: 0; font-size: 1rem; }
+    .modal-close { background: none; border: none; color: var(--muted); font-size: 1.4rem; cursor: pointer; padding: 2px 6px; border-radius: 6px; }
+    .modal-close:hover { color: var(--text); background: var(--surface2); }
+    .modal-body { overflow-y: auto; flex: 1; padding: 18px 22px; }
+    .modal-stats { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; }
+    .modal-stat { background: var(--surface2); border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px; font-size: 0.82rem; min-width: 80px; }
+    .modal-stat .val { font-weight: 700; font-size: 1.1rem; margin-bottom: 2px; }
+    .modal-actions { margin-bottom: 16px; display: flex; gap: 8px; }
+
+    .confirm-overlay {
+      display: none; position: fixed; inset: 0;
+      background: rgba(0,0,0,0.8); z-index: 200;
+      align-items: center; justify-content: center;
+    }
+    .confirm-overlay.open { display: flex; }
+    .confirm-box {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 14px; padding: 28px 24px; max-width: 380px; width: 90%; text-align: center;
+    }
+    .confirm-box h4 { margin: 0 0 8px; font-size: 1rem; }
+    .confirm-box p { color: var(--muted); font-size: 0.86rem; margin: 0 0 22px; line-height: 1.5; }
+    .confirm-actions { display: flex; gap: 10px; justify-content: center; }
+
+    @media (max-width: 700px) {
+      body { padding: 10px; }
+      .section { padding: 14px; }
+      th, td { padding: 7px 5px; font-size: 0.76rem; }
+      .comment-cell { max-width: 80px; }
+      .modal { max-height: 96vh; }
+      .actions-cell { flex-direction: column; gap: 4px; }
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <div class="header">
+    <h1>🔒 ALSL Admin <span class="sub">— dataset statistics</span></h1>
+    <form method="POST" action="/admin/logout" style="margin:0">
+      <button type="submit" class="logout-btn">Log out</button>
+    </form>
+  </div>
+
+  <div class="overview" id="overview">
+    <div class="loading">Loading…</div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><h2>Exports</h2></div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap">
+      <a class="btn" href="/admin/export-all.csv">📥 All evaluations (CSV)</a>
+      <a class="btn" href="/admin/validated.csv">✅ Validated (CSV)</a>
+      <a class="btn" href="/admin/rejected.csv" style="background:#dc2626">✗ Rejected (CSV)</a>
+      <a class="btn" href="/admin/revision.csv" style="background:#b45309">~ Needs revision (CSV)</a>
+      <a class="btn" href="/admin/flagged.csv"  style="background:#a855f7">⚐ Flagged (CSV)</a>
+      <a class="btn secondary" href="/admin/users.csv">👥 Experts (CSV)</a>
+    </div>
+    <p class="muted" style="margin-top:12px;font-size:.82rem">
+      CSV files include a Byte-Order-Mark so Arabic characters display correctly in Excel.
+    </p>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <h2>Experts &amp; their progress</h2>
+      <div class="muted" style="font-size:.82rem">Click "Manage" to view &amp; edit an expert's evaluations</div>
+    </div>
+    <table id="expertsTable">
+      <thead>
+        <tr>
+          <th>Full name</th>
+          <th>Username</th>
+          <th>Email</th>
+          <th>Accuracy</th>
+          <th>Correct</th>
+          <th>Wrong</th>
+          <th>Almost</th>
+          <th>Flagged</th>
+          <th>Progress</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td colspan="10" class="loading">Loading…</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <h2>✅ Validated <span class="muted" style="font-weight:400;font-size:.82rem">— hidden from queue, ready for HamNoSys</span></h2>
+      <div class="muted" style="font-size:.82rem">Click "Send back" to return a sign to the queue</div>
+    </div>
+    <table id="validatedTable">
+      <thead><tr><th style="width:60px">Sign #</th><th>Concept</th><th>YES</th><th>NO</th><th>ALMOST</th><th>FLAG</th><th>Action</th></tr></thead>
+      <tbody><tr><td colspan="7" class="loading">Loading…</td></tr></tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <h2>✗ Rejected <span class="muted" style="font-weight:400;font-size:.82rem">— ≥3 NO from distinct experts</span></h2>
+      <div class="muted" style="font-size:.82rem">These signs likely don't exist or are wrong</div>
+    </div>
+    <table id="rejectedTable">
+      <thead><tr><th style="width:60px">Sign #</th><th>Concept</th><th>YES</th><th>NO</th><th>ALMOST</th><th>FLAG</th><th>Action</th></tr></thead>
+      <tbody><tr><td colspan="7" class="loading">Loading…</td></tr></tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <h2>~ Needs revision <span class="muted" style="font-weight:400;font-size:.82rem">— ≥3 ALMOST from distinct experts</span></h2>
+      <div class="muted" style="font-size:.82rem">Close but not perfect — candidates for re-recording</div>
+    </div>
+    <table id="revisionTable">
+      <thead><tr><th style="width:60px">Sign #</th><th>Concept</th><th>YES</th><th>NO</th><th>ALMOST</th><th>FLAG</th><th>Action</th></tr></thead>
+      <tbody><tr><td colspan="7" class="loading">Loading…</td></tr></tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <h2>⚐ Flagged <span class="muted" style="font-weight:400;font-size:.82rem">— ≥2 FLAG reports (technical issues)</span></h2>
+    </div>
+    <table id="flaggedTable">
+      <thead><tr><th style="width:60px">Sign #</th><th>Concept</th><th>YES</th><th>NO</th><th>ALMOST</th><th>FLAG</th><th>Action</th></tr></thead>
+      <tbody><tr><td colspan="7" class="loading">Loading…</td></tr></tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <h2>💾 Backups <span class="muted" style="font-weight:400;font-size:.82rem">— automatic daily snapshots</span></h2>
+      <button class="btn" onclick="triggerBackupNow()">🔄 Backup now</button>
+    </div>
+    <p class="muted" style="font-size:.82rem;margin:0 0 12px">
+      Every 24 hours: a database snapshot is saved to the Volume (last 7 kept) and CSV exports are pushed to GitHub
+      (if <code>GITHUB_TOKEN</code> + <code>GITHUB_REPO</code> are configured).
+      You can also click the button above to backup right now, or download any snapshot below.
+    </p>
+    <table id="backupsTable">
+      <thead>
+        <tr>
+          <th>Filename</th>
+          <th>Size</th>
+          <th>Date</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td colspan="4" class="loading">Loading…</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <h2>Recent activity <span class="muted" style="font-weight:400;font-size:.82rem">(last 100)</span></h2>
+    </div>
+    <table id="recentTable">
+      <thead>
+        <tr>
+          <th>When</th>
+          <th>Expert</th>
+          <th>Sign</th>
+          <th>Concept</th>
+          <th>Answer</th>
+          <th>Comment</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td colspan="7" class="loading">Loading…</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="modal-overlay" id="expertModal">
+  <div class="modal">
+    <div class="modal-header">
+      <h3 id="modalTitle">Expert evaluations</h3>
+      <button class="modal-close" onclick="closeModal()">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="modal-stats" id="modalStats"></div>
+      <div class="modal-actions" id="modalActions"></div>
+      <table>
+        <thead>
+          <tr>
+            <th>Sign #</th>
+            <th>Concept</th>
+            <th>Answer</th>
+            <th>Comment</th>
+            <th>When</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="modalBody">
+          <tr><td colspan="6" class="loading">Loading…</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="confirm-overlay" id="confirmOverlay">
+  <div class="confirm-box">
+    <h4 id="confirmTitle">Are you sure?</h4>
+    <p id="confirmMsg">This action cannot be undone.</p>
+    <div class="confirm-actions">
+      <button class="btn secondary" onclick="closeConfirm()">Cancel</button>
+      <button class="btn danger" id="confirmOkBtn">Delete</button>
+    </div>
+  </div>
+</div>
+
+<script>
+function escapeHtml(s){return String(s||'').replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[c]);}
+function fmtTime(iso){
+  if(!iso) return "";
+  try{ return new Date(iso.replace(' ','T')+'Z').toLocaleString(); }
+  catch(e){ return iso; }
+}
+function accBadge(yes, total) {
+  if (!total) return '<span class="muted" style="font-size:.78rem">—</span>';
+  const pct = Math.round(100 * yes / total);
+  const cls = pct >= 70 ? 'acc-high' : pct >= 40 ? 'acc-medium' : 'acc-low';
+  return `<span class="acc-badge ${cls}">${pct}%</span>`;
+}
+
+function renderBucket(tableId, items, emptyMsg) {
+  const tbody = document.querySelector(`#${tableId} tbody`);
+  tbody.innerHTML = '';
+  if (!items || items.length === 0) {
+    tbody.innerHTML = `<tr><td colspan="7" class="muted" style="padding:20px;text-align:center">${emptyMsg}</td></tr>`;
+    return;
+  }
+  for (const it of items) {
+    const tr = document.createElement('tr');
+    const overrideTag = it.override
+      ? ` <span class="muted" style="font-size:.72rem;background:#222;padding:1px 6px;border-radius:6px;margin-inline-start:4px">⚙ admin</span>`
+      : '';
+    tr.innerHTML = `
+      <td class="muted">#${it.sign_id}</td>
+      <td><strong>${escapeHtml(it.concept)}</strong>${overrideTag}</td>
+      <td><span class="pill yes">${it.yes||0}</span></td>
+      <td><span class="pill no">${it.no||0}</span></td>
+      <td><span class="pill almost">${it.almost||0}</span></td>
+      <td><span class="pill flag">${it.flag||0}</span></td>
+      <td>
+        <div class="actions-cell">
+          <button class="btn secondary sm" onclick="sendBackToQueue(${it.sign_id})">↩ Send back</button>
+          ${it.override ? `<button class="btn sm" onclick="clearOverride(${it.sign_id})" style="background:#475569">Clear override</button>` : ''}
+        </div>
+      </td>
+    `;
+    tbody.appendChild(tr);
+  }
+}
+
+async function sendBackToQueue(signId) {
+  showConfirm(
+    'Send sign back to queue?',
+    `Sign #${signId} will reappear in the experts' queue. Their original votes are kept but ignored — admin override forces it active.`,
+    async () => {
+      try {
+        const r = await fetch(`/admin/sign/${signId}/override`, {
+          method: 'POST', credentials: 'include',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ status: 'active', reason: 'Admin sent back' })
+        });
+        const data = await r.json();
+        if (data.success) load(); else alert('Failed: ' + (data.error||'unknown'));
+      } catch(e) { alert('Network error'); }
+    },
+    { okLabel: 'Send back', okClass: '' }
+  );
+}
+
+async function clearOverride(signId) {
+  showConfirm(
+    'Clear override?',
+    `Sign #${signId} will return to vote-based status (whatever the votes naturally produce).`,
+    async () => {
+      try {
+        const r = await fetch(`/admin/sign/${signId}/override`, {
+          method: 'DELETE', credentials: 'include'
+        });
+        const data = await r.json();
+        if (data.success) load(); else alert('Failed: ' + (data.error||'unknown'));
+      } catch(e) { alert('Network error'); }
+    },
+    { okLabel: 'Clear override', okClass: '' }
+  );
+}
+
+async function loadBackups() {
+  const tbody = document.querySelector('#backupsTable tbody');
+  if (!tbody) return;
+  try {
+    const r = await fetch('/admin/backups', { credentials: 'include' });
+    if (!r.ok) { tbody.innerHTML = '<tr><td colspan="4" class="muted">Failed to load</td></tr>'; return; }
+    const data = await r.json();
+    if (!data.backups || data.backups.length === 0) {
+      tbody.innerHTML = '<tr><td colspan="4" class="muted" style="padding:20px;text-align:center">No backups yet — first one runs 60 seconds after server start, then every 24h</td></tr>';
+      return;
+    }
+    tbody.innerHTML = '';
+    for (const b of data.backups) {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td style="font-family:monospace;font-size:.85rem">${escapeHtml(b.name)}</td>
+        <td class="muted">${b.size_kb} KB</td>
+        <td class="muted" style="font-size:.82rem">${fmtTime(b.modified)}</td>
+        <td>
+          <a class="btn secondary sm" href="/admin/backups/${encodeURIComponent(b.name)}" download>📥 Download</a>
+        </td>
+      `;
+      tbody.appendChild(tr);
+    }
+  } catch (e) {
+    tbody.innerHTML = '<tr><td colspan="4" class="muted">Error: ' + escapeHtml(e.message) + '</td></tr>';
+  }
+}
+
+async function triggerBackupNow() {
+  showConfirm(
+    'Run backup now?',
+    'This will save a snapshot of the database to the Volume and (if configured) push CSV exports to GitHub. Takes a few seconds.',
+    async () => {
+      try {
+        const r = await fetch('/admin/backup-now', { method: 'POST', credentials: 'include' });
+        const data = await r.json();
+        if (data.success) {
+          alert('✅ Backup completed. Refreshing list…');
+          loadBackups();
+        } else {
+          alert('Failed: ' + (data.error || 'unknown'));
+        }
+      } catch (e) { alert('Network error'); }
+    },
+    { okLabel: '🔄 Backup now', okClass: '' }
+  );
+}
+
+let _confirmCb = null;
+function showConfirm(title, msg, onOk, opts = {}) {
+  document.getElementById('confirmTitle').textContent = title;
+  document.getElementById('confirmMsg').textContent = msg;
+
+  const btn = document.getElementById('confirmOkBtn');
+  btn.textContent = opts.okLabel || 'Delete';
+
+  const cls = (opts.okClass !== undefined) ? opts.okClass : 'danger';
+  btn.className = cls ? ('btn ' + cls) : 'btn';
+  _confirmCb = onOk;
+  document.getElementById('confirmOverlay').classList.add('open');
+}
+function closeConfirm() {
+  document.getElementById('confirmOverlay').classList.remove('open');
+  _confirmCb = null;
+}
+document.getElementById('confirmOkBtn').onclick = () => { if (_confirmCb) _confirmCb(); closeConfirm(); };
+document.getElementById('confirmOverlay').addEventListener('click', e => { if (e.target.id === 'confirmOverlay') closeConfirm(); });
+
+let _currentUsername = null, _currentDisplayName = null;
+
+function closeModal() {
+  document.getElementById('expertModal').classList.remove('open');
+  _currentUsername = null;
+}
+document.getElementById('expertModal').addEventListener('click', e => {
+  if (e.target.id === 'expertModal') closeModal();
+});
+
+async function openExpertModal(username, displayName) {
+  _currentUsername = username;
+  _currentDisplayName = displayName;
+  document.getElementById('modalTitle').textContent = displayName + ' — evaluations';
+  document.getElementById('modalStats').innerHTML = '';
+  document.getElementById('modalActions').innerHTML = '';
+  document.getElementById('modalBody').innerHTML = '<tr><td colspan="6" class="loading">Loading…</td></tr>';
+  document.getElementById('expertModal').classList.add('open');
+
+  try {
+    const r = await fetch('/admin/expert/' + encodeURIComponent(username) + '/evaluations');
+    const data = await r.json();
+    if (!data.success) throw new Error(data.error);
+    renderModalContent(data.evaluations || [], username, displayName);
+  } catch(err) {
+    document.getElementById('modalBody').innerHTML =
+      `<tr><td colspan="6" style="color:var(--no);padding:20px">Error: ${escapeHtml(err.message)}</td></tr>`;
+  }
+}
+
+function renderModalContent(evals, username, displayName) {
+  const counts = { YES:0, NO:0, ALMOST:0, FLAG:0 };
+  evals.forEach(e => { if (counts[e.answer] !== undefined) counts[e.answer]++; });
+  const total = evals.length;
+  const accPct = total ? Math.round(100 * counts.YES / total) : 0;
+  const accCls = accPct >= 70 ? 'acc-high' : accPct >= 40 ? 'acc-medium' : 'acc-low';
+
+  document.getElementById('modalStats').innerHTML = `
+    <div class="modal-stat"><div class="val">${total}</div><div>Total</div></div>
+    <div class="modal-stat"><div class="val" style="color:var(--yes)">${counts.YES}</div><div>Correct</div></div>
+    <div class="modal-stat"><div class="val" style="color:var(--no)">${counts.NO}</div><div>Wrong</div></div>
+    <div class="modal-stat"><div class="val" style="color:var(--almost)">${counts.ALMOST}</div><div>Almost</div></div>
+    <div class="modal-stat"><div class="val" style="color:var(--flag)">${counts.FLAG}</div><div>Flagged</div></div>
+    <div class="modal-stat"><div class="val ${accCls}" style="font-size:1.1rem">${accPct}%</div><div>Accuracy</div></div>
+  `;
+
+  document.getElementById('modalActions').innerHTML = `
+    <a class="btn secondary sm" href="/admin/export/${encodeURIComponent(displayName)}.csv">📥 Export CSV</a>
+    <button class="btn danger sm" onclick="deleteExpert('${escapeHtml(username)}','${escapeHtml(displayName)}')">🗑 Delete expert &amp; all evaluations</button>
+  `;
+
+  const tbody = document.getElementById('modalBody');
+  if (evals.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="6" class="muted" style="padding:20px;text-align:center">No evaluations yet</td></tr>';
+    return;
+  }
+  tbody.innerHTML = '';
+  for (const e of evals) {
+    const ac = (e.answer||'').toLowerCase();
+    const tr = document.createElement('tr');
+    tr.id = 'modal-eval-' + e.id;
+    tr.innerHTML = `
+      <td class="muted">#${e.sign_id}</td>
+      <td>${escapeHtml(e.concept)}</td>
+      <td><span class="pill ${ac}">${escapeHtml(e.answer)}</span></td>
+      <td class="comment-cell" title="${escapeHtml(e.comment||'')}">${escapeHtml(e.comment||'—')}</td>
+      <td class="muted" style="font-size:.76rem">${fmtTime(e.created_at)}</td>
+      <td><button class="btn danger sm" onclick="deleteEvaluation(${e.id}, true)">🗑</button></td>
+    `;
+    tbody.appendChild(tr);
+  }
+}
+
+async function deleteEvaluation(id, fromModal) {
+  showConfirm(
+    'Delete this evaluation?',
+    'This will permanently remove this single evaluation entry.',
+    async () => {
+      try {
+        const r = await fetch('/admin/evaluation/' + id, { method: 'DELETE' });
+        const data = await r.json();
+        if (!data.success) throw new Error(data.error);
+
+        const mrow = document.getElementById('modal-eval-' + id);
+        if (mrow) mrow.remove();
+
+        const rrow = document.getElementById('recent-eval-' + id);
+        if (rrow) rrow.remove();
+
+        load();
+      } catch(err) { alert('Error: ' + err.message); }
+    }
+  );
+}
+
+async function resetUserPassword(username, displayName) {
+  const defaultPass = 'reset' + Math.floor(Math.random() * 9000 + 1000);
+  const newPass = prompt(
+    `Set a new password for "${displayName}".\n\n` +
+    `They will be forced to choose their own password on next login.\n\n` +
+    `Tell them the password you set here.\n\n` +
+    `Enter new password (min 6 characters):`,
+    defaultPass
+  );
+
+  if (newPass === null) return;
+  const trimmed = newPass.trim();
+  if (trimmed.length < 6) {
+    alert('Password must be at least 6 characters.');
+    return;
+  }
+
+  try {
+    const r = await fetch(`/admin/expert/${encodeURIComponent(username)}/reset-password`, {
+      method: 'POST',
+      credentials: 'include',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ new_password: trimmed })
+    });
+    const data = await r.json();
+    if (!data.success) { alert('Failed: ' + (data.error || 'unknown')); return; }
+    alert(
+      `✅ Password reset for ${displayName}.\n\n` +
+      `Tell them their new temporary password is:\n\n    ${trimmed}\n\n` +
+      `When they log in, they'll be asked to choose their own password.`
+    );
+  } catch (e) {
+    alert('Network error: ' + e.message);
+  }
+}
+
+async function deleteExpert(username, displayName) {
+  showConfirm(
+    `Delete expert "${displayName}"?`,
+    'This will permanently delete the expert account and ALL their evaluations. This cannot be undone.',
+    async () => {
+      try {
+        const r = await fetch('/admin/expert/' + encodeURIComponent(username), { method: 'DELETE' });
+        const data = await r.json();
+        if (!data.success) throw new Error(data.error);
+        closeModal();
+        load();
+      } catch(err) { alert('Error: ' + err.message); }
+    }
+  );
+}
+
+async function load() {
+  try {
+    const r = await fetch('/admin/stats.json');
+    if (r.status === 401 || r.redirected) { window.location = '/admin/login'; return; }
+    const data = await r.json();
+
+    const totalSigns = data.totalSigns || 0;
+    const totalEvals = data.totalEvaluations || 0;
+    const numExperts = (data.users || []).length;
+    const t = data.thresholds || { validated: 2, rejected: 3, revision: 3, flagged: 2 };
+    const counts = {
+      validated: data.validatedCount || 0,
+      rejected:  data.rejectedCount  || 0,
+      revision:  data.revisionCount  || 0,
+      flagged:   data.flaggedCount   || 0
+    };
+
+    document.getElementById('overview').innerHTML = `
+      <div class="stat-card"><div class="label">Registered experts</div><div class="num">${numExperts}</div></div>
+      <div class="stat-card"><div class="label">Total signs</div><div class="num">${totalSigns}</div></div>
+      <div class="stat-card"><div class="label">Evaluations submitted</div><div class="num">${totalEvals}</div></div>
+      <div class="stat-card" style="border-color:var(--yes)">
+        <div class="label">✅ Validated <span style="opacity:.6">(≥${t.validated} YES)</span></div>
+        <div class="num" style="color:var(--yes)">${counts.validated}</div>
+      </div>
+      <div class="stat-card" style="border-color:var(--no)">
+        <div class="label">✗ Rejected <span style="opacity:.6">(≥${t.rejected} NO)</span></div>
+        <div class="num" style="color:var(--no)">${counts.rejected}</div>
+      </div>
+      <div class="stat-card" style="border-color:var(--almost)">
+        <div class="label">~ Needs revision <span style="opacity:.6">(≥${t.revision} ALMOST)</span></div>
+        <div class="num" style="color:var(--almost)">${counts.revision}</div>
+      </div>
+      <div class="stat-card" style="border-color:var(--flag)">
+        <div class="label">⚐ Flagged <span style="opacity:.6">(≥${t.flagged} FLAG)</span></div>
+        <div class="num" style="color:var(--flag)">${counts.flagged}</div>
+      </div>
+    `;
+
+    const etbody = document.querySelector('#expertsTable tbody');
+    etbody.innerHTML = '';
+    if (!data.users || data.users.length === 0) {
+      etbody.innerHTML = '<tr><td colspan="10" class="muted" style="padding:20px;text-align:center">No registered experts yet</td></tr>';
+    } else {
+      for (const u of data.users) {
+        const s = (data.byExpert && data.byExpert[u.display_name]) || { YES:0, NO:0, ALMOST:0, FLAG:0, total:0 };
+        const pct = totalSigns ? Math.round(100 * s.total / totalSigns) : 0;
+        const tr = document.createElement('tr');
+        tr.className = 'clickable';
+        tr.innerHTML = `
+          <td><strong>${escapeHtml(u.display_name)}</strong></td>
+          <td class="muted">${escapeHtml(u.username)}</td>
+          <td class="muted" style="font-size:.82rem">${escapeHtml(u.email||'—')}</td>
+          <td>${accBadge(s.YES||0, s.total)}</td>
+          <td><span class="pill yes">${s.YES||0}</span></td>
+          <td><span class="pill no">${s.NO||0}</span></td>
+          <td><span class="pill almost">${s.ALMOST||0}</span></td>
+          <td><span class="pill flag">${s.FLAG||0}</span></td>
+          <td>
+            <span class="progress-mini"><span class="progress-mini-bar" style="width:${pct}%"></span></span>
+            <strong>${s.total}</strong> <span class="muted">(${pct}%)</span>
+          </td>
+          <td>
+            <div class="actions-cell">
+              <button class="btn secondary sm" onclick="event.stopPropagation();openExpertModal('${escapeHtml(u.username)}','${escapeHtml(u.display_name)}')">📋 Manage</button>
+              <button class="btn sm" style="background:#b45309" onclick="event.stopPropagation();resetUserPassword('${escapeHtml(u.username)}','${escapeHtml(u.display_name)}')">🔑 Reset password</button>
+              <button class="btn danger sm" onclick="event.stopPropagation();deleteExpert('${escapeHtml(u.username)}','${escapeHtml(u.display_name)}')">🗑 Delete</button>
+            </div>
+          </td>
+        `;
+        tr.addEventListener('click', () => openExpertModal(u.username, u.display_name));
+        etbody.appendChild(tr);
+      }
+    }
+
+    const buckets = data.buckets || { validated: [], rejected: [], revision: [], flagged: [] };
+    renderBucket('validatedTable', buckets.validated, 'No signs validated yet');
+    renderBucket('rejectedTable',  buckets.rejected,  'No signs rejected yet');
+    renderBucket('revisionTable',  buckets.revision,  'No signs need revision yet');
+    renderBucket('flaggedTable',   buckets.flagged,   'No signs flagged yet');
+
+    const rtbody = document.querySelector('#recentTable tbody');
+    rtbody.innerHTML = '';
+    if (!data.recent || data.recent.length === 0) {
+      rtbody.innerHTML = '<tr><td colspan="7" class="muted" style="padding:20px;text-align:center">No evaluations yet</td></tr>';
+    } else {
+      for (const e of data.recent) {
+        const tr = document.createElement('tr');
+        tr.id = 'recent-eval-' + e.id;
+        const ac = (e.answer||'').toLowerCase();
+        tr.innerHTML = `
+          <td class="muted" style="font-size:.78rem">${fmtTime(e.created_at)}</td>
+          <td>${escapeHtml(e.expert)}</td>
+          <td class="muted">#${e.sign_id}</td>
+          <td>${escapeHtml(e.concept)}</td>
+          <td><span class="pill ${ac}">${escapeHtml(e.answer)}</span></td>
+          <td class="comment-cell" title="${escapeHtml(e.comment||'')}">${escapeHtml(e.comment||'—')}</td>
+          <td><button class="btn danger sm" onclick="deleteEvaluation(${e.id}, false)">🗑</button></td>
+        `;
+        rtbody.appendChild(tr);
+      }
+    }
+  } catch (err) {
+    document.getElementById('overview').innerHTML =
+      `<div class="loading" style="color:var(--no)">Failed to load stats: ${escapeHtml(err.message)}</div>`;
+  }
+}
+
+load();
+loadBackups();
+setInterval(() => { load(); loadBackups(); }, 30000);
+  </script>
+</body>
+</html>
